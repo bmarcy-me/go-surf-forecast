@@ -1,0 +1,9279 @@
+{
+  "hours": [
+    {
+      "airTemperature": {
+        "sg": 13.65
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 241.03
+      },
+      "swellHeight": {
+        "sg": 1.24
+      },
+      "swellPeriod": {
+        "sg": 11.45
+      },
+      "time": "2024-10-11T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.85
+      },
+      "waveDirection": {
+        "sg": 250.92
+      },
+      "waveHeight": {
+        "sg": 1.24
+      },
+      "wavePeriod": {
+        "sg": 13.48
+      },
+      "windDirection": {
+        "sg": 298.9
+      },
+      "windSpeed": {
+        "sg": 5.29
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.08
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 241.06
+      },
+      "swellHeight": {
+        "sg": 1.2
+      },
+      "swellPeriod": {
+        "sg": 11.35
+      },
+      "time": "2024-10-11T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.84
+      },
+      "waveDirection": {
+        "sg": 251.18
+      },
+      "waveHeight": {
+        "sg": 1.2
+      },
+      "wavePeriod": {
+        "sg": 13.39
+      },
+      "windDirection": {
+        "sg": 306
+      },
+      "windSpeed": {
+        "sg": 4.68
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 12.5
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 241.02
+      },
+      "swellHeight": {
+        "sg": 1.17
+      },
+      "swellPeriod": {
+        "sg": 11.28
+      },
+      "time": "2024-10-11T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.83
+      },
+      "waveDirection": {
+        "sg": 251.44
+      },
+      "waveHeight": {
+        "sg": 1.17
+      },
+      "wavePeriod": {
+        "sg": 13.29
+      },
+      "windDirection": {
+        "sg": 313.11
+      },
+      "windSpeed": {
+        "sg": 4.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 12.23
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 241.01
+      },
+      "swellHeight": {
+        "sg": 1.14
+      },
+      "swellPeriod": {
+        "sg": 11.23
+      },
+      "time": "2024-10-11T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.81
+      },
+      "waveDirection": {
+        "sg": 251.7
+      },
+      "waveHeight": {
+        "sg": 1.14
+      },
+      "wavePeriod": {
+        "sg": 13.2
+      },
+      "windDirection": {
+        "sg": 320.21
+      },
+      "windSpeed": {
+        "sg": 3.47
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 11.85
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 241
+      },
+      "swellHeight": {
+        "sg": 1.11
+      },
+      "swellPeriod": {
+        "sg": 11.18
+      },
+      "time": "2024-10-11T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.79
+      },
+      "waveDirection": {
+        "sg": 251.83
+      },
+      "waveHeight": {
+        "sg": 1.1
+      },
+      "wavePeriod": {
+        "sg": 13.03
+      },
+      "windDirection": {
+        "sg": 343.45
+      },
+      "windSpeed": {
+        "sg": 3.05
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 11.43
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 240.99
+      },
+      "swellHeight": {
+        "sg": 1.08
+      },
+      "swellPeriod": {
+        "sg": 11.13
+      },
+      "time": "2024-10-11T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.76
+      },
+      "waveDirection": {
+        "sg": 251.97
+      },
+      "waveHeight": {
+        "sg": 1.07
+      },
+      "wavePeriod": {
+        "sg": 12.87
+      },
+      "windDirection": {
+        "sg": 6.68
+      },
+      "windSpeed": {
+        "sg": 2.62
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 11.38
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 240.99
+      },
+      "swellHeight": {
+        "sg": 1.05
+      },
+      "swellPeriod": {
+        "sg": 11.09
+      },
+      "time": "2024-10-11T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.74
+      },
+      "waveDirection": {
+        "sg": 252.1
+      },
+      "waveHeight": {
+        "sg": 1.05
+      },
+      "wavePeriod": {
+        "sg": 12.7
+      },
+      "windDirection": {
+        "sg": 29.92
+      },
+      "windSpeed": {
+        "sg": 2.2
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 11.37
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 240.98
+      },
+      "swellHeight": {
+        "sg": 1.02
+      },
+      "swellPeriod": {
+        "sg": 11.05
+      },
+      "time": "2024-10-11T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.73
+      },
+      "waveDirection": {
+        "sg": 252.13
+      },
+      "waveHeight": {
+        "sg": 1.02
+      },
+      "wavePeriod": {
+        "sg": 12.61
+      },
+      "windDirection": {
+        "sg": 51.51
+      },
+      "windSpeed": {
+        "sg": 2.66
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 11.18
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 240.99
+      },
+      "swellHeight": {
+        "sg": 1
+      },
+      "swellPeriod": {
+        "sg": 11.02
+      },
+      "time": "2024-10-11T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.73
+      },
+      "waveDirection": {
+        "sg": 252.15
+      },
+      "waveHeight": {
+        "sg": 1
+      },
+      "wavePeriod": {
+        "sg": 12.51
+      },
+      "windDirection": {
+        "sg": 73.09
+      },
+      "windSpeed": {
+        "sg": 3.13
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 11.97
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 241.01
+      },
+      "swellHeight": {
+        "sg": 0.97
+      },
+      "swellPeriod": {
+        "sg": 10.97
+      },
+      "time": "2024-10-11T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.76
+      },
+      "waveDirection": {
+        "sg": 252.18
+      },
+      "waveHeight": {
+        "sg": 0.97
+      },
+      "wavePeriod": {
+        "sg": 12.42
+      },
+      "windDirection": {
+        "sg": 94.68
+      },
+      "windSpeed": {
+        "sg": 3.59
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.39
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 241.04
+      },
+      "swellHeight": {
+        "sg": 0.95
+      },
+      "swellPeriod": {
+        "sg": 10.93
+      },
+      "time": "2024-10-11T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.81
+      },
+      "waveDirection": {
+        "sg": 252.15
+      },
+      "waveHeight": {
+        "sg": 0.95
+      },
+      "wavePeriod": {
+        "sg": 12.38
+      },
+      "windDirection": {
+        "sg": 103.8
+      },
+      "windSpeed": {
+        "sg": 3.52
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.95
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 241.08
+      },
+      "swellHeight": {
+        "sg": 0.92
+      },
+      "swellPeriod": {
+        "sg": 10.88
+      },
+      "time": "2024-10-11T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.88
+      },
+      "waveDirection": {
+        "sg": 252.13
+      },
+      "waveHeight": {
+        "sg": 0.92
+      },
+      "wavePeriod": {
+        "sg": 12.33
+      },
+      "windDirection": {
+        "sg": 112.93
+      },
+      "windSpeed": {
+        "sg": 3.45
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.67
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 241.12
+      },
+      "swellHeight": {
+        "sg": 0.9
+      },
+      "swellPeriod": {
+        "sg": 10.82
+      },
+      "time": "2024-10-11T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.96
+      },
+      "waveDirection": {
+        "sg": 252.1
+      },
+      "waveHeight": {
+        "sg": 0.9
+      },
+      "wavePeriod": {
+        "sg": 12.29
+      },
+      "windDirection": {
+        "sg": 122.05
+      },
+      "windSpeed": {
+        "sg": 3.38
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.05
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 241.17
+      },
+      "swellHeight": {
+        "sg": 0.88
+      },
+      "swellPeriod": {
+        "sg": 10.77
+      },
+      "time": "2024-10-11T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.02
+      },
+      "waveDirection": {
+        "sg": 252.35
+      },
+      "waveHeight": {
+        "sg": 0.88
+      },
+      "wavePeriod": {
+        "sg": 12.13
+      },
+      "windDirection": {
+        "sg": 116.69
+      },
+      "windSpeed": {
+        "sg": 3.51
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.56
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 241.21
+      },
+      "swellHeight": {
+        "sg": 0.85
+      },
+      "swellPeriod": {
+        "sg": 10.7
+      },
+      "time": "2024-10-11T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.04
+      },
+      "waveDirection": {
+        "sg": 252.61
+      },
+      "waveHeight": {
+        "sg": 0.85
+      },
+      "wavePeriod": {
+        "sg": 11.96
+      },
+      "windDirection": {
+        "sg": 111.33
+      },
+      "windSpeed": {
+        "sg": 3.63
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.86
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 241.26
+      },
+      "swellHeight": {
+        "sg": 0.83
+      },
+      "swellPeriod": {
+        "sg": 10.64
+      },
+      "time": "2024-10-11T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.02
+      },
+      "waveDirection": {
+        "sg": 252.86
+      },
+      "waveHeight": {
+        "sg": 0.83
+      },
+      "wavePeriod": {
+        "sg": 11.8
+      },
+      "windDirection": {
+        "sg": 105.97
+      },
+      "windSpeed": {
+        "sg": 3.76
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.93
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 241.32
+      },
+      "swellHeight": {
+        "sg": 0.8
+      },
+      "swellPeriod": {
+        "sg": 10.57
+      },
+      "time": "2024-10-11T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.98
+      },
+      "waveDirection": {
+        "sg": 252.91
+      },
+      "waveHeight": {
+        "sg": 0.8
+      },
+      "wavePeriod": {
+        "sg": 11.74
+      },
+      "windDirection": {
+        "sg": 103.63
+      },
+      "windSpeed": {
+        "sg": 4.77
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.48
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 241.38
+      },
+      "swellHeight": {
+        "sg": 0.78
+      },
+      "swellPeriod": {
+        "sg": 10.5
+      },
+      "time": "2024-10-11T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.96
+      },
+      "waveDirection": {
+        "sg": 252.97
+      },
+      "waveHeight": {
+        "sg": 0.78
+      },
+      "wavePeriod": {
+        "sg": 11.68
+      },
+      "windDirection": {
+        "sg": 101.29
+      },
+      "windSpeed": {
+        "sg": 5.79
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.62
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 241.43
+      },
+      "swellHeight": {
+        "sg": 0.76
+      },
+      "swellPeriod": {
+        "sg": 10.43
+      },
+      "time": "2024-10-11T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.94
+      },
+      "waveDirection": {
+        "sg": 253.02
+      },
+      "waveHeight": {
+        "sg": 0.76
+      },
+      "wavePeriod": {
+        "sg": 11.62
+      },
+      "windDirection": {
+        "sg": 98.95
+      },
+      "windSpeed": {
+        "sg": 6.8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 241.44
+      },
+      "swellHeight": {
+        "sg": 0.73
+      },
+      "swellPeriod": {
+        "sg": 10.36
+      },
+      "time": "2024-10-11T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.93
+      },
+      "waveDirection": {
+        "sg": 253.11
+      },
+      "waveHeight": {
+        "sg": 0.73
+      },
+      "wavePeriod": {
+        "sg": 11.59
+      },
+      "windDirection": {
+        "sg": 102.36
+      },
+      "windSpeed": {
+        "sg": 7.63
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.47
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 241.25
+      },
+      "swellHeight": {
+        "sg": 0.71
+      },
+      "swellPeriod": {
+        "sg": 10.26
+      },
+      "time": "2024-10-11T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.91
+      },
+      "waveDirection": {
+        "sg": 253.19
+      },
+      "waveHeight": {
+        "sg": 0.72
+      },
+      "wavePeriod": {
+        "sg": 11.57
+      },
+      "windDirection": {
+        "sg": 105.77
+      },
+      "windSpeed": {
+        "sg": 8.46
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.07
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 240.13
+      },
+      "swellHeight": {
+        "sg": 0.69
+      },
+      "swellPeriod": {
+        "sg": 10.05
+      },
+      "time": "2024-10-11T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.89
+      },
+      "waveDirection": {
+        "sg": 253.28
+      },
+      "waveHeight": {
+        "sg": 0.71
+      },
+      "wavePeriod": {
+        "sg": 11.54
+      },
+      "windDirection": {
+        "sg": 109.18
+      },
+      "windSpeed": {
+        "sg": 9.29
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.8
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 239.98
+      },
+      "swellHeight": {
+        "sg": 0.66
+      },
+      "swellPeriod": {
+        "sg": 10.01
+      },
+      "time": "2024-10-11T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.87
+      },
+      "waveDirection": {
+        "sg": 253.49
+      },
+      "waveHeight": {
+        "sg": 0.69
+      },
+      "wavePeriod": {
+        "sg": 11.38
+      },
+      "windDirection": {
+        "sg": 105.28
+      },
+      "windSpeed": {
+        "sg": 9.03
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.7
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 239.39
+      },
+      "swellHeight": {
+        "sg": 0.62
+      },
+      "swellPeriod": {
+        "sg": 9.98
+      },
+      "time": "2024-10-11T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.85
+      },
+      "waveDirection": {
+        "sg": 253.7
+      },
+      "waveHeight": {
+        "sg": 0.68
+      },
+      "wavePeriod": {
+        "sg": 11.22
+      },
+      "windDirection": {
+        "sg": 101.38
+      },
+      "windSpeed": {
+        "sg": 8.78
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.66
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 237.18
+      },
+      "swellHeight": {
+        "sg": 0.59
+      },
+      "swellPeriod": {
+        "sg": 9.78
+      },
+      "time": "2024-10-12T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.83
+      },
+      "waveDirection": {
+        "sg": 253.91
+      },
+      "waveHeight": {
+        "sg": 0.65
+      },
+      "wavePeriod": {
+        "sg": 11.06
+      },
+      "windDirection": {
+        "sg": 97.48
+      },
+      "windSpeed": {
+        "sg": 8.52
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.42
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 236.77
+      },
+      "swellHeight": {
+        "sg": 0.55
+      },
+      "swellPeriod": {
+        "sg": 9.81
+      },
+      "time": "2024-10-12T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.81
+      },
+      "waveDirection": {
+        "sg": 253.95
+      },
+      "waveHeight": {
+        "sg": 0.62
+      },
+      "wavePeriod": {
+        "sg": 11
+      },
+      "windDirection": {
+        "sg": 109.4
+      },
+      "windSpeed": {
+        "sg": 8.8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.2
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 233.84
+      },
+      "swellHeight": {
+        "sg": 0.53
+      },
+      "swellPeriod": {
+        "sg": 9.56
+      },
+      "time": "2024-10-12T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.79
+      },
+      "waveDirection": {
+        "sg": 253.98
+      },
+      "waveHeight": {
+        "sg": 0.61
+      },
+      "wavePeriod": {
+        "sg": 10.95
+      },
+      "windDirection": {
+        "sg": 121.33
+      },
+      "windSpeed": {
+        "sg": 9.09
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.38
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 232
+      },
+      "swellHeight": {
+        "sg": 0.51
+      },
+      "swellPeriod": {
+        "sg": 9.42
+      },
+      "time": "2024-10-12T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.77
+      },
+      "waveDirection": {
+        "sg": 254.02
+      },
+      "waveHeight": {
+        "sg": 0.58
+      },
+      "wavePeriod": {
+        "sg": 10.89
+      },
+      "windDirection": {
+        "sg": 133.25
+      },
+      "windSpeed": {
+        "sg": 9.37
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.62
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 229.98
+      },
+      "swellHeight": {
+        "sg": 0.5
+      },
+      "swellPeriod": {
+        "sg": 9.26
+      },
+      "time": "2024-10-12T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.76
+      },
+      "waveDirection": {
+        "sg": 254.02
+      },
+      "waveHeight": {
+        "sg": 0.57
+      },
+      "wavePeriod": {
+        "sg": 10.88
+      },
+      "windDirection": {
+        "sg": 142.84
+      },
+      "windSpeed": {
+        "sg": 8.91
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.55
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 229.59
+      },
+      "swellHeight": {
+        "sg": 0.48
+      },
+      "swellPeriod": {
+        "sg": 9.27
+      },
+      "time": "2024-10-12T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.74
+      },
+      "waveDirection": {
+        "sg": 254.02
+      },
+      "waveHeight": {
+        "sg": 0.56
+      },
+      "wavePeriod": {
+        "sg": 10.87
+      },
+      "windDirection": {
+        "sg": 152.44
+      },
+      "windSpeed": {
+        "sg": 8.46
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.73
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.12
+      },
+      "swellDirection": {
+        "sg": 226.6
+      },
+      "swellHeight": {
+        "sg": 0.48
+      },
+      "swellPeriod": {
+        "sg": 8.96
+      },
+      "time": "2024-10-12T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.73
+      },
+      "waveDirection": {
+        "sg": 254.02
+      },
+      "waveHeight": {
+        "sg": 0.56
+      },
+      "wavePeriod": {
+        "sg": 10.86
+      },
+      "windDirection": {
+        "sg": 162.03
+      },
+      "windSpeed": {
+        "sg": 8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 13.94
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.12
+      },
+      "swellDirection": {
+        "sg": 223.05
+      },
+      "swellHeight": {
+        "sg": 0.49
+      },
+      "swellPeriod": {
+        "sg": 8.6
+      },
+      "time": "2024-10-12T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.71
+      },
+      "waveDirection": {
+        "sg": 242.44
+      },
+      "waveHeight": {
+        "sg": 0.55
+      },
+      "wavePeriod": {
+        "sg": 9.33
+      },
+      "windDirection": {
+        "sg": 170.84
+      },
+      "windSpeed": {
+        "sg": 8.2
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.91
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.12
+      },
+      "swellDirection": {
+        "sg": 220.16
+      },
+      "swellHeight": {
+        "sg": 0.49
+      },
+      "swellPeriod": {
+        "sg": 8.29
+      },
+      "time": "2024-10-12T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.72
+      },
+      "waveDirection": {
+        "sg": 230.87
+      },
+      "waveHeight": {
+        "sg": 0.54
+      },
+      "wavePeriod": {
+        "sg": 7.79
+      },
+      "windDirection": {
+        "sg": 179.65
+      },
+      "windSpeed": {
+        "sg": 8.41
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.98
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 217.07
+      },
+      "swellHeight": {
+        "sg": 0.49
+      },
+      "swellPeriod": {
+        "sg": 7.93
+      },
+      "time": "2024-10-12T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.75
+      },
+      "waveDirection": {
+        "sg": 219.29
+      },
+      "waveHeight": {
+        "sg": 0.52
+      },
+      "wavePeriod": {
+        "sg": 6.26
+      },
+      "windDirection": {
+        "sg": 188.46
+      },
+      "windSpeed": {
+        "sg": 8.61
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.03
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 217.21
+      },
+      "swellHeight": {
+        "sg": 0.48
+      },
+      "swellPeriod": {
+        "sg": 7.78
+      },
+      "time": "2024-10-12T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.79
+      },
+      "waveDirection": {
+        "sg": 231.04
+      },
+      "waveHeight": {
+        "sg": 0.51
+      },
+      "wavePeriod": {
+        "sg": 7.59
+      },
+      "windDirection": {
+        "sg": 202.43
+      },
+      "windSpeed": {
+        "sg": 7.6
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.17
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 216.94
+      },
+      "swellHeight": {
+        "sg": 0.47
+      },
+      "swellPeriod": {
+        "sg": 7.57
+      },
+      "time": "2024-10-12T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.85
+      },
+      "waveDirection": {
+        "sg": 242.79
+      },
+      "waveHeight": {
+        "sg": 0.51
+      },
+      "wavePeriod": {
+        "sg": 8.92
+      },
+      "windDirection": {
+        "sg": 216.41
+      },
+      "windSpeed": {
+        "sg": 6.6
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.99
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.12
+      },
+      "swellDirection": {
+        "sg": 215.57
+      },
+      "swellHeight": {
+        "sg": 0.47
+      },
+      "swellPeriod": {
+        "sg": 7.19
+      },
+      "time": "2024-10-12T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.91
+      },
+      "waveDirection": {
+        "sg": 254.54
+      },
+      "waveHeight": {
+        "sg": 0.49
+      },
+      "wavePeriod": {
+        "sg": 10.25
+      },
+      "windDirection": {
+        "sg": 230.38
+      },
+      "windSpeed": {
+        "sg": 5.59
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.39
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 216.92
+      },
+      "swellHeight": {
+        "sg": 0.44
+      },
+      "swellPeriod": {
+        "sg": 7.19
+      },
+      "time": "2024-10-12T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.97
+      },
+      "waveDirection": {
+        "sg": 254.61
+      },
+      "waveHeight": {
+        "sg": 0.45
+      },
+      "wavePeriod": {
+        "sg": 10.23
+      },
+      "windDirection": {
+        "sg": 238.71
+      },
+      "windSpeed": {
+        "sg": 5.17
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.47
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 219.83
+      },
+      "swellHeight": {
+        "sg": 0.41
+      },
+      "swellPeriod": {
+        "sg": 7.57
+      },
+      "time": "2024-10-12T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.02
+      },
+      "waveDirection": {
+        "sg": 254.68
+      },
+      "waveHeight": {
+        "sg": 0.41
+      },
+      "wavePeriod": {
+        "sg": 10.21
+      },
+      "windDirection": {
+        "sg": 247.04
+      },
+      "windSpeed": {
+        "sg": 4.76
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.16
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 222.56
+      },
+      "swellHeight": {
+        "sg": 0.39
+      },
+      "swellPeriod": {
+        "sg": 7.9
+      },
+      "time": "2024-10-12T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.06
+      },
+      "waveDirection": {
+        "sg": 254.75
+      },
+      "waveHeight": {
+        "sg": 0.39
+      },
+      "wavePeriod": {
+        "sg": 10.19
+      },
+      "windDirection": {
+        "sg": 255.37
+      },
+      "windSpeed": {
+        "sg": 4.34
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.66
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 225.11
+      },
+      "swellHeight": {
+        "sg": 0.37
+      },
+      "swellPeriod": {
+        "sg": 8.41
+      },
+      "time": "2024-10-12T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.05
+      },
+      "waveDirection": {
+        "sg": 251.31
+      },
+      "waveHeight": {
+        "sg": 0.37
+      },
+      "wavePeriod": {
+        "sg": 11.92
+      },
+      "windDirection": {
+        "sg": 253.23
+      },
+      "windSpeed": {
+        "sg": 4.34
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.84
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 227.48
+      },
+      "swellHeight": {
+        "sg": 0.37
+      },
+      "swellPeriod": {
+        "sg": 8.97
+      },
+      "time": "2024-10-12T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.03
+      },
+      "waveDirection": {
+        "sg": 247.86
+      },
+      "waveHeight": {
+        "sg": 0.37
+      },
+      "wavePeriod": {
+        "sg": 13.64
+      },
+      "windDirection": {
+        "sg": 251.08
+      },
+      "windSpeed": {
+        "sg": 4.35
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.99
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 229.49
+      },
+      "swellHeight": {
+        "sg": 0.39
+      },
+      "swellPeriod": {
+        "sg": 9.55
+      },
+      "time": "2024-10-12T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.01
+      },
+      "waveDirection": {
+        "sg": 244.42
+      },
+      "waveHeight": {
+        "sg": 0.39
+      },
+      "wavePeriod": {
+        "sg": 15.37
+      },
+      "windDirection": {
+        "sg": 248.94
+      },
+      "windSpeed": {
+        "sg": 4.35
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.56
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 230.94
+      },
+      "swellHeight": {
+        "sg": 0.42
+      },
+      "swellPeriod": {
+        "sg": 10.08
+      },
+      "time": "2024-10-12T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.99
+      },
+      "waveDirection": {
+        "sg": 244.33
+      },
+      "waveHeight": {
+        "sg": 0.42
+      },
+      "wavePeriod": {
+        "sg": 14.77
+      },
+      "windDirection": {
+        "sg": 269.3
+      },
+      "windSpeed": {
+        "sg": 4.46
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.44
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 231.87
+      },
+      "swellHeight": {
+        "sg": 0.47
+      },
+      "swellPeriod": {
+        "sg": 10.5
+      },
+      "time": "2024-10-12T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.98
+      },
+      "waveDirection": {
+        "sg": 244.24
+      },
+      "waveHeight": {
+        "sg": 0.46
+      },
+      "wavePeriod": {
+        "sg": 14.16
+      },
+      "windDirection": {
+        "sg": 289.67
+      },
+      "windSpeed": {
+        "sg": 4.58
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.36
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 232.45
+      },
+      "swellHeight": {
+        "sg": 0.52
+      },
+      "swellPeriod": {
+        "sg": 10.8
+      },
+      "time": "2024-10-12T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.97
+      },
+      "waveDirection": {
+        "sg": 244.15
+      },
+      "waveHeight": {
+        "sg": 0.52
+      },
+      "wavePeriod": {
+        "sg": 13.56
+      },
+      "windDirection": {
+        "sg": 310.03
+      },
+      "windSpeed": {
+        "sg": 4.69
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.2
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 232.84
+      },
+      "swellHeight": {
+        "sg": 0.58
+      },
+      "swellPeriod": {
+        "sg": 11
+      },
+      "time": "2024-10-12T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.97
+      },
+      "waveDirection": {
+        "sg": 244.22
+      },
+      "waveHeight": {
+        "sg": 0.58
+      },
+      "wavePeriod": {
+        "sg": 13.24
+      },
+      "windDirection": {
+        "sg": 324.23
+      },
+      "windSpeed": {
+        "sg": 4.2
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.91
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 233.1
+      },
+      "swellHeight": {
+        "sg": 0.64
+      },
+      "swellPeriod": {
+        "sg": 11.13
+      },
+      "time": "2024-10-12T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.96
+      },
+      "waveDirection": {
+        "sg": 244.3
+      },
+      "waveHeight": {
+        "sg": 0.64
+      },
+      "wavePeriod": {
+        "sg": 12.92
+      },
+      "windDirection": {
+        "sg": 338.42
+      },
+      "windSpeed": {
+        "sg": 3.7
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.91
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 233.38
+      },
+      "swellHeight": {
+        "sg": 0.69
+      },
+      "swellPeriod": {
+        "sg": 11.21
+      },
+      "time": "2024-10-13T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.95
+      },
+      "waveDirection": {
+        "sg": 244.37
+      },
+      "waveHeight": {
+        "sg": 0.69
+      },
+      "wavePeriod": {
+        "sg": 12.6
+      },
+      "windDirection": {
+        "sg": 352.62
+      },
+      "windSpeed": {
+        "sg": 3.21
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.5
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 233.59
+      },
+      "swellHeight": {
+        "sg": 0.74
+      },
+      "swellPeriod": {
+        "sg": 11.25
+      },
+      "time": "2024-10-13T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.94
+      },
+      "waveDirection": {
+        "sg": 244.57
+      },
+      "waveHeight": {
+        "sg": 0.73
+      },
+      "wavePeriod": {
+        "sg": 12.41
+      },
+      "windDirection": {
+        "sg": 3.11
+      },
+      "windSpeed": {
+        "sg": 3.42
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.2
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 233.76
+      },
+      "swellHeight": {
+        "sg": 0.77
+      },
+      "swellPeriod": {
+        "sg": 11.24
+      },
+      "time": "2024-10-13T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.93
+      },
+      "waveDirection": {
+        "sg": 244.76
+      },
+      "waveHeight": {
+        "sg": 0.77
+      },
+      "wavePeriod": {
+        "sg": 12.22
+      },
+      "windDirection": {
+        "sg": 13.59
+      },
+      "windSpeed": {
+        "sg": 3.63
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.17
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.23
+      },
+      "swellDirection": {
+        "sg": 233.91
+      },
+      "swellHeight": {
+        "sg": 0.81
+      },
+      "swellPeriod": {
+        "sg": 11.22
+      },
+      "time": "2024-10-13T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.92
+      },
+      "waveDirection": {
+        "sg": 244.96
+      },
+      "waveHeight": {
+        "sg": 0.8
+      },
+      "wavePeriod": {
+        "sg": 12.03
+      },
+      "windDirection": {
+        "sg": 24.08
+      },
+      "windSpeed": {
+        "sg": 3.84
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.95
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.22
+      },
+      "swellDirection": {
+        "sg": 234.03
+      },
+      "swellHeight": {
+        "sg": 0.82
+      },
+      "swellPeriod": {
+        "sg": 11.18
+      },
+      "time": "2024-10-13T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.91
+      },
+      "waveDirection": {
+        "sg": 244.94
+      },
+      "waveHeight": {
+        "sg": 0.82
+      },
+      "wavePeriod": {
+        "sg": 11.93
+      },
+      "windDirection": {
+        "sg": 41.34
+      },
+      "windSpeed": {
+        "sg": 4.02
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.8
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.2
+      },
+      "swellDirection": {
+        "sg": 234.15
+      },
+      "swellHeight": {
+        "sg": 0.83
+      },
+      "swellPeriod": {
+        "sg": 11.14
+      },
+      "time": "2024-10-13T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.9
+      },
+      "waveDirection": {
+        "sg": 244.93
+      },
+      "waveHeight": {
+        "sg": 0.83
+      },
+      "wavePeriod": {
+        "sg": 11.82
+      },
+      "windDirection": {
+        "sg": 58.6
+      },
+      "windSpeed": {
+        "sg": 4.2
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.7
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.2
+      },
+      "swellDirection": {
+        "sg": 234.25
+      },
+      "swellHeight": {
+        "sg": 0.84
+      },
+      "swellPeriod": {
+        "sg": 11.09
+      },
+      "time": "2024-10-13T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.9
+      },
+      "waveDirection": {
+        "sg": 244.91
+      },
+      "waveHeight": {
+        "sg": 0.84
+      },
+      "wavePeriod": {
+        "sg": 11.72
+      },
+      "windDirection": {
+        "sg": 75.86
+      },
+      "windSpeed": {
+        "sg": 4.38
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 14.81
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 234.35
+      },
+      "swellHeight": {
+        "sg": 0.84
+      },
+      "swellPeriod": {
+        "sg": 11.04
+      },
+      "time": "2024-10-13T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.9
+      },
+      "waveDirection": {
+        "sg": 245.14
+      },
+      "waveHeight": {
+        "sg": 0.84
+      },
+      "wavePeriod": {
+        "sg": 11.55
+      },
+      "windDirection": {
+        "sg": 78.46
+      },
+      "windSpeed": {
+        "sg": 4.8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.05
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 234.42
+      },
+      "swellHeight": {
+        "sg": 0.84
+      },
+      "swellPeriod": {
+        "sg": 11
+      },
+      "time": "2024-10-13T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.9
+      },
+      "waveDirection": {
+        "sg": 245.37
+      },
+      "waveHeight": {
+        "sg": 0.84
+      },
+      "wavePeriod": {
+        "sg": 11.39
+      },
+      "windDirection": {
+        "sg": 81.07
+      },
+      "windSpeed": {
+        "sg": 5.21
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.02
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 234.34
+      },
+      "swellHeight": {
+        "sg": 0.83
+      },
+      "swellPeriod": {
+        "sg": 10.94
+      },
+      "time": "2024-10-13T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.92
+      },
+      "waveDirection": {
+        "sg": 245.6
+      },
+      "waveHeight": {
+        "sg": 0.84
+      },
+      "wavePeriod": {
+        "sg": 11.22
+      },
+      "windDirection": {
+        "sg": 83.67
+      },
+      "windSpeed": {
+        "sg": 5.63
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.62
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 234.23
+      },
+      "swellHeight": {
+        "sg": 0.83
+      },
+      "swellPeriod": {
+        "sg": 10.87
+      },
+      "time": "2024-10-13T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.96
+      },
+      "waveDirection": {
+        "sg": 245.69
+      },
+      "waveHeight": {
+        "sg": 0.84
+      },
+      "wavePeriod": {
+        "sg": 11.13
+      },
+      "windDirection": {
+        "sg": 83.79
+      },
+      "windSpeed": {
+        "sg": 5.29
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.21
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 234.37
+      },
+      "swellHeight": {
+        "sg": 0.82
+      },
+      "swellPeriod": {
+        "sg": 10.84
+      },
+      "time": "2024-10-13T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.01
+      },
+      "waveDirection": {
+        "sg": 245.78
+      },
+      "waveHeight": {
+        "sg": 0.84
+      },
+      "wavePeriod": {
+        "sg": 11.04
+      },
+      "windDirection": {
+        "sg": 83.92
+      },
+      "windSpeed": {
+        "sg": 4.95
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 20.06
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.2
+      },
+      "swellDirection": {
+        "sg": 234.45
+      },
+      "swellHeight": {
+        "sg": 0.82
+      },
+      "swellPeriod": {
+        "sg": 10.81
+      },
+      "time": "2024-10-13T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.09
+      },
+      "waveDirection": {
+        "sg": 245.87
+      },
+      "waveHeight": {
+        "sg": 0.83
+      },
+      "wavePeriod": {
+        "sg": 10.95
+      },
+      "windDirection": {
+        "sg": 84.04
+      },
+      "windSpeed": {
+        "sg": 4.61
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 20.55
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 234.77
+      },
+      "swellHeight": {
+        "sg": 0.81
+      },
+      "swellPeriod": {
+        "sg": 10.82
+      },
+      "time": "2024-10-13T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.19
+      },
+      "waveDirection": {
+        "sg": 246.01
+      },
+      "waveHeight": {
+        "sg": 0.82
+      },
+      "wavePeriod": {
+        "sg": 10.85
+      },
+      "windDirection": {
+        "sg": 75.33
+      },
+      "windSpeed": {
+        "sg": 4.09
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 21.43
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 234.59
+      },
+      "swellHeight": {
+        "sg": 0.8
+      },
+      "swellPeriod": {
+        "sg": 10.71
+      },
+      "time": "2024-10-13T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.29
+      },
+      "waveDirection": {
+        "sg": 246.14
+      },
+      "waveHeight": {
+        "sg": 0.81
+      },
+      "wavePeriod": {
+        "sg": 10.74
+      },
+      "windDirection": {
+        "sg": 66.63
+      },
+      "windSpeed": {
+        "sg": 3.58
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 21.53
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 234.83
+      },
+      "swellHeight": {
+        "sg": 0.79
+      },
+      "swellPeriod": {
+        "sg": 10.67
+      },
+      "time": "2024-10-13T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.33
+      },
+      "waveDirection": {
+        "sg": 246.28
+      },
+      "waveHeight": {
+        "sg": 0.79
+      },
+      "wavePeriod": {
+        "sg": 10.64
+      },
+      "windDirection": {
+        "sg": 57.92
+      },
+      "windSpeed": {
+        "sg": 3.06
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 21.43
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 235.09
+      },
+      "swellHeight": {
+        "sg": 0.78
+      },
+      "swellPeriod": {
+        "sg": 10.65
+      },
+      "time": "2024-10-13T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.31
+      },
+      "waveDirection": {
+        "sg": 246.51
+      },
+      "waveHeight": {
+        "sg": 0.78
+      },
+      "wavePeriod": {
+        "sg": 10.56
+      },
+      "windDirection": {
+        "sg": 58.51
+      },
+      "windSpeed": {
+        "sg": 3.4
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 20.47
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 235.26
+      },
+      "swellHeight": {
+        "sg": 0.77
+      },
+      "swellPeriod": {
+        "sg": 10.59
+      },
+      "time": "2024-10-13T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.3
+      },
+      "waveDirection": {
+        "sg": 246.73
+      },
+      "waveHeight": {
+        "sg": 0.76
+      },
+      "wavePeriod": {
+        "sg": 10.49
+      },
+      "windDirection": {
+        "sg": 59.1
+      },
+      "windSpeed": {
+        "sg": 3.74
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.56
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 235.41
+      },
+      "swellHeight": {
+        "sg": 0.75
+      },
+      "swellPeriod": {
+        "sg": 10.52
+      },
+      "time": "2024-10-13T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.28
+      },
+      "waveDirection": {
+        "sg": 246.96
+      },
+      "waveHeight": {
+        "sg": 0.75
+      },
+      "wavePeriod": {
+        "sg": 10.41
+      },
+      "windDirection": {
+        "sg": 59.69
+      },
+      "windSpeed": {
+        "sg": 4.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.85
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 235.52
+      },
+      "swellHeight": {
+        "sg": 0.73
+      },
+      "swellPeriod": {
+        "sg": 10.44
+      },
+      "time": "2024-10-13T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.24
+      },
+      "waveDirection": {
+        "sg": 247.21
+      },
+      "waveHeight": {
+        "sg": 0.73
+      },
+      "wavePeriod": {
+        "sg": 10.42
+      },
+      "windDirection": {
+        "sg": 68.72
+      },
+      "windSpeed": {
+        "sg": 4.44
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.36
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 235.65
+      },
+      "swellHeight": {
+        "sg": 0.71
+      },
+      "swellPeriod": {
+        "sg": 10.35
+      },
+      "time": "2024-10-13T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.21
+      },
+      "waveDirection": {
+        "sg": 247.47
+      },
+      "waveHeight": {
+        "sg": 0.71
+      },
+      "wavePeriod": {
+        "sg": 10.43
+      },
+      "windDirection": {
+        "sg": 77.75
+      },
+      "windSpeed": {
+        "sg": 4.79
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.7
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 235.76
+      },
+      "swellHeight": {
+        "sg": 0.69
+      },
+      "swellPeriod": {
+        "sg": 10.24
+      },
+      "time": "2024-10-13T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.19
+      },
+      "waveDirection": {
+        "sg": 247.72
+      },
+      "waveHeight": {
+        "sg": 0.69
+      },
+      "wavePeriod": {
+        "sg": 10.44
+      },
+      "windDirection": {
+        "sg": 86.78
+      },
+      "windSpeed": {
+        "sg": 5.15
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.35
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 235.89
+      },
+      "swellHeight": {
+        "sg": 0.67
+      },
+      "swellPeriod": {
+        "sg": 10.13
+      },
+      "time": "2024-10-13T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.18
+      },
+      "waveDirection": {
+        "sg": 247.88
+      },
+      "waveHeight": {
+        "sg": 0.66
+      },
+      "wavePeriod": {
+        "sg": 10.39
+      },
+      "windDirection": {
+        "sg": 93.75
+      },
+      "windSpeed": {
+        "sg": 5.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.13
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 236.05
+      },
+      "swellHeight": {
+        "sg": 0.65
+      },
+      "swellPeriod": {
+        "sg": 10.02
+      },
+      "time": "2024-10-13T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.16
+      },
+      "waveDirection": {
+        "sg": 248.04
+      },
+      "waveHeight": {
+        "sg": 0.64
+      },
+      "wavePeriod": {
+        "sg": 10.34
+      },
+      "windDirection": {
+        "sg": 100.73
+      },
+      "windSpeed": {
+        "sg": 5.01
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.19
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 236.21
+      },
+      "swellHeight": {
+        "sg": 0.62
+      },
+      "swellPeriod": {
+        "sg": 9.91
+      },
+      "time": "2024-10-14T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.14
+      },
+      "waveDirection": {
+        "sg": 248.2
+      },
+      "waveHeight": {
+        "sg": 0.62
+      },
+      "wavePeriod": {
+        "sg": 10.29
+      },
+      "windDirection": {
+        "sg": 107.7
+      },
+      "windSpeed": {
+        "sg": 4.94
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.36
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 236.36
+      },
+      "swellHeight": {
+        "sg": 0.6
+      },
+      "swellPeriod": {
+        "sg": 9.77
+      },
+      "time": "2024-10-14T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.13
+      },
+      "waveDirection": {
+        "sg": 248.22
+      },
+      "waveHeight": {
+        "sg": 0.6
+      },
+      "wavePeriod": {
+        "sg": 10.22
+      },
+      "windDirection": {
+        "sg": 112.35
+      },
+      "windSpeed": {
+        "sg": 4.8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.2
+      },
+      "currentSpeed": {
+        "sg": 0.09
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 236.57
+      },
+      "swellHeight": {
+        "sg": 0.58
+      },
+      "swellPeriod": {
+        "sg": 9.65
+      },
+      "time": "2024-10-14T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.14
+      },
+      "waveDirection": {
+        "sg": 248.23
+      },
+      "waveHeight": {
+        "sg": 0.58
+      },
+      "wavePeriod": {
+        "sg": 10.14
+      },
+      "windDirection": {
+        "sg": 117
+      },
+      "windSpeed": {
+        "sg": 4.66
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.01
+      },
+      "currentSpeed": {
+        "sg": 0.09
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 236.81
+      },
+      "swellHeight": {
+        "sg": 0.56
+      },
+      "swellPeriod": {
+        "sg": 9.53
+      },
+      "time": "2024-10-14T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.14
+      },
+      "waveDirection": {
+        "sg": 248.25
+      },
+      "waveHeight": {
+        "sg": 0.55
+      },
+      "wavePeriod": {
+        "sg": 10.07
+      },
+      "windDirection": {
+        "sg": 121.65
+      },
+      "windSpeed": {
+        "sg": 4.52
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.83
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 237.06
+      },
+      "swellHeight": {
+        "sg": 0.54
+      },
+      "swellPeriod": {
+        "sg": 9.42
+      },
+      "time": "2024-10-14T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.13
+      },
+      "waveDirection": {
+        "sg": 248.63
+      },
+      "waveHeight": {
+        "sg": 0.53
+      },
+      "wavePeriod": {
+        "sg": 9.94
+      },
+      "windDirection": {
+        "sg": 126.92
+      },
+      "windSpeed": {
+        "sg": 4.52
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.55
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 237.32
+      },
+      "swellHeight": {
+        "sg": 0.52
+      },
+      "swellPeriod": {
+        "sg": 9.31
+      },
+      "time": "2024-10-14T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.12
+      },
+      "waveDirection": {
+        "sg": 249.02
+      },
+      "waveHeight": {
+        "sg": 0.51
+      },
+      "wavePeriod": {
+        "sg": 9.82
+      },
+      "windDirection": {
+        "sg": 132.19
+      },
+      "windSpeed": {
+        "sg": 4.53
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.37
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 237.59
+      },
+      "swellHeight": {
+        "sg": 0.49
+      },
+      "swellPeriod": {
+        "sg": 9.2
+      },
+      "time": "2024-10-14T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.12
+      },
+      "waveDirection": {
+        "sg": 249.4
+      },
+      "waveHeight": {
+        "sg": 0.49
+      },
+      "wavePeriod": {
+        "sg": 9.69
+      },
+      "windDirection": {
+        "sg": 137.46
+      },
+      "windSpeed": {
+        "sg": 4.53
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.75
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 250.8
+      },
+      "swellHeight": {
+        "sg": 0.45
+      },
+      "swellPeriod": {
+        "sg": 9.63
+      },
+      "time": "2024-10-14T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.14
+      },
+      "waveDirection": {
+        "sg": 249.39
+      },
+      "waveHeight": {
+        "sg": 0.49
+      },
+      "wavePeriod": {
+        "sg": 9.63
+      },
+      "windDirection": {
+        "sg": 134.05
+      },
+      "windSpeed": {
+        "sg": 4.48
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.14
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 250.81
+      },
+      "swellHeight": {
+        "sg": 0.43
+      },
+      "swellPeriod": {
+        "sg": 9.56
+      },
+      "time": "2024-10-14T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.14
+      },
+      "waveDirection": {
+        "sg": 249.39
+      },
+      "waveHeight": {
+        "sg": 0.48
+      },
+      "wavePeriod": {
+        "sg": 9.56
+      },
+      "windDirection": {
+        "sg": 130.64
+      },
+      "windSpeed": {
+        "sg": 4.42
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.52
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 250.81
+      },
+      "swellHeight": {
+        "sg": 0.41
+      },
+      "swellPeriod": {
+        "sg": 9.5
+      },
+      "time": "2024-10-14T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.18
+      },
+      "waveDirection": {
+        "sg": 249.38
+      },
+      "waveHeight": {
+        "sg": 0.46
+      },
+      "wavePeriod": {
+        "sg": 9.5
+      },
+      "windDirection": {
+        "sg": 127.23
+      },
+      "windSpeed": {
+        "sg": 4.37
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.33
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 250.98
+      },
+      "swellHeight": {
+        "sg": 0.39
+      },
+      "swellPeriod": {
+        "sg": 9.39
+      },
+      "time": "2024-10-14T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.23
+      },
+      "waveDirection": {
+        "sg": 250.11
+      },
+      "waveHeight": {
+        "sg": 0.44
+      },
+      "wavePeriod": {
+        "sg": 9.39
+      },
+      "windDirection": {
+        "sg": 135.87
+      },
+      "windSpeed": {
+        "sg": 4.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.13
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 251.16
+      },
+      "swellHeight": {
+        "sg": 0.38
+      },
+      "swellPeriod": {
+        "sg": 9.27
+      },
+      "time": "2024-10-14T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.29
+      },
+      "waveDirection": {
+        "sg": 250.84
+      },
+      "waveHeight": {
+        "sg": 0.43
+      },
+      "wavePeriod": {
+        "sg": 9.27
+      },
+      "windDirection": {
+        "sg": 144.5
+      },
+      "windSpeed": {
+        "sg": 3.78
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.94
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 251.33
+      },
+      "swellHeight": {
+        "sg": 0.36
+      },
+      "swellPeriod": {
+        "sg": 9.16
+      },
+      "time": "2024-10-14T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.36
+      },
+      "waveDirection": {
+        "sg": 251.57
+      },
+      "waveHeight": {
+        "sg": 0.41
+      },
+      "wavePeriod": {
+        "sg": 9.16
+      },
+      "windDirection": {
+        "sg": 153.14
+      },
+      "windSpeed": {
+        "sg": 3.49
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.44
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 243.5
+      },
+      "swellHeight": {
+        "sg": 0.27
+      },
+      "swellPeriod": {
+        "sg": 7.91
+      },
+      "time": "2024-10-14T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.42
+      },
+      "waveDirection": {
+        "sg": 251.57
+      },
+      "waveHeight": {
+        "sg": 0.39
+      },
+      "wavePeriod": {
+        "sg": 9.1
+      },
+      "windDirection": {
+        "sg": 140.49
+      },
+      "windSpeed": {
+        "sg": 2.78
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.94
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 235.67
+      },
+      "swellHeight": {
+        "sg": 0.18
+      },
+      "swellPeriod": {
+        "sg": 6.65
+      },
+      "time": "2024-10-14T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.47
+      },
+      "waveDirection": {
+        "sg": 251.57
+      },
+      "waveHeight": {
+        "sg": 0.37
+      },
+      "wavePeriod": {
+        "sg": 9.04
+      },
+      "windDirection": {
+        "sg": 127.84
+      },
+      "windSpeed": {
+        "sg": 2.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.44
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 227.84
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 5.4
+      },
+      "time": "2024-10-14T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.46
+      },
+      "waveDirection": {
+        "sg": 251.57
+      },
+      "waveHeight": {
+        "sg": 0.35
+      },
+      "wavePeriod": {
+        "sg": 8.98
+      },
+      "windDirection": {
+        "sg": 115.19
+      },
+      "windSpeed": {
+        "sg": 1.37
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.95
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 243.79
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 7.59
+      },
+      "time": "2024-10-14T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.43
+      },
+      "waveDirection": {
+        "sg": 251.59
+      },
+      "waveHeight": {
+        "sg": 0.34
+      },
+      "wavePeriod": {
+        "sg": 8.93
+      },
+      "windDirection": {
+        "sg": 103.59
+      },
+      "windSpeed": {
+        "sg": 1.51
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.45
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 259.75
+      },
+      "swellHeight": {
+        "sg": 0.1
+      },
+      "swellPeriod": {
+        "sg": 9.79
+      },
+      "time": "2024-10-14T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.41
+      },
+      "waveDirection": {
+        "sg": 251.61
+      },
+      "waveHeight": {
+        "sg": 0.33
+      },
+      "wavePeriod": {
+        "sg": 8.88
+      },
+      "windDirection": {
+        "sg": 92
+      },
+      "windSpeed": {
+        "sg": 1.65
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.96
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 275.7
+      },
+      "swellHeight": {
+        "sg": 0.1
+      },
+      "swellPeriod": {
+        "sg": 11.98
+      },
+      "time": "2024-10-14T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 251.63
+      },
+      "waveHeight": {
+        "sg": 0.32
+      },
+      "wavePeriod": {
+        "sg": 8.83
+      },
+      "windDirection": {
+        "sg": 80.4
+      },
+      "windSpeed": {
+        "sg": 1.79
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.74
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 281.64
+      },
+      "swellHeight": {
+        "sg": 0.1
+      },
+      "swellPeriod": {
+        "sg": 10.87
+      },
+      "time": "2024-10-14T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.36
+      },
+      "waveDirection": {
+        "sg": 254.93
+      },
+      "waveHeight": {
+        "sg": 0.32
+      },
+      "wavePeriod": {
+        "sg": 10.71
+      },
+      "windDirection": {
+        "sg": 85.26
+      },
+      "windSpeed": {
+        "sg": 1.87
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.52
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 287.59
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 9.77
+      },
+      "time": "2024-10-14T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.34
+      },
+      "waveDirection": {
+        "sg": 258.24
+      },
+      "waveHeight": {
+        "sg": 0.32
+      },
+      "wavePeriod": {
+        "sg": 12.59
+      },
+      "windDirection": {
+        "sg": 90.13
+      },
+      "windSpeed": {
+        "sg": 1.94
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.29
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 293.53
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 8.66
+      },
+      "time": "2024-10-14T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.32
+      },
+      "waveDirection": {
+        "sg": 261.54
+      },
+      "waveHeight": {
+        "sg": 0.32
+      },
+      "wavePeriod": {
+        "sg": 14.47
+      },
+      "windDirection": {
+        "sg": 94.99
+      },
+      "windSpeed": {
+        "sg": 2.02
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.27
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 293.36
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 8.67
+      },
+      "time": "2024-10-14T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.3
+      },
+      "waveDirection": {
+        "sg": 262.05
+      },
+      "waveHeight": {
+        "sg": 0.32
+      },
+      "wavePeriod": {
+        "sg": 14.19
+      },
+      "windDirection": {
+        "sg": 83.93
+      },
+      "windSpeed": {
+        "sg": 2.98
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.24
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 293.2
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 8.68
+      },
+      "time": "2024-10-14T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.28
+      },
+      "waveDirection": {
+        "sg": 262.55
+      },
+      "waveHeight": {
+        "sg": 0.33
+      },
+      "wavePeriod": {
+        "sg": 13.9
+      },
+      "windDirection": {
+        "sg": 72.87
+      },
+      "windSpeed": {
+        "sg": 3.93
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.22
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 293.03
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 8.69
+      },
+      "time": "2024-10-15T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.27
+      },
+      "waveDirection": {
+        "sg": 263.06
+      },
+      "waveHeight": {
+        "sg": 0.33
+      },
+      "wavePeriod": {
+        "sg": 13.62
+      },
+      "windDirection": {
+        "sg": 61.81
+      },
+      "windSpeed": {
+        "sg": 4.89
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.14
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.22
+      },
+      "swellDirection": {
+        "sg": 293.28
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 8.59
+      },
+      "time": "2024-10-15T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.26
+      },
+      "waveDirection": {
+        "sg": 263.56
+      },
+      "waveHeight": {
+        "sg": 0.37
+      },
+      "wavePeriod": {
+        "sg": 13.39
+      },
+      "windDirection": {
+        "sg": 68.92
+      },
+      "windSpeed": {
+        "sg": 5.72
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.06
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.22
+      },
+      "swellDirection": {
+        "sg": 293.52
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 8.48
+      },
+      "time": "2024-10-15T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.25
+      },
+      "waveDirection": {
+        "sg": 264.05
+      },
+      "waveHeight": {
+        "sg": 0.4
+      },
+      "wavePeriod": {
+        "sg": 13.16
+      },
+      "windDirection": {
+        "sg": 76.04
+      },
+      "windSpeed": {
+        "sg": 6.55
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.98
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 293.77
+      },
+      "swellHeight": {
+        "sg": 0.09
+      },
+      "swellPeriod": {
+        "sg": 8.38
+      },
+      "time": "2024-10-15T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.24
+      },
+      "waveDirection": {
+        "sg": 264.55
+      },
+      "waveHeight": {
+        "sg": 0.44
+      },
+      "wavePeriod": {
+        "sg": 12.93
+      },
+      "windDirection": {
+        "sg": 83.15
+      },
+      "windSpeed": {
+        "sg": 7.38
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.02
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 292.86
+      },
+      "swellHeight": {
+        "sg": 0.08
+      },
+      "swellPeriod": {
+        "sg": 8.3
+      },
+      "time": "2024-10-15T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.22
+      },
+      "waveDirection": {
+        "sg": 264.13
+      },
+      "waveHeight": {
+        "sg": 0.47
+      },
+      "wavePeriod": {
+        "sg": 12.77
+      },
+      "windDirection": {
+        "sg": 87.12
+      },
+      "windSpeed": {
+        "sg": 7.41
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.06
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.22
+      },
+      "swellDirection": {
+        "sg": 291.95
+      },
+      "swellHeight": {
+        "sg": 0.06
+      },
+      "swellPeriod": {
+        "sg": 8.21
+      },
+      "time": "2024-10-15T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.21
+      },
+      "waveDirection": {
+        "sg": 263.7
+      },
+      "waveHeight": {
+        "sg": 0.5
+      },
+      "wavePeriod": {
+        "sg": 12.6
+      },
+      "windDirection": {
+        "sg": 91.08
+      },
+      "windSpeed": {
+        "sg": 7.44
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.11
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.22
+      },
+      "swellDirection": {
+        "sg": 291.04
+      },
+      "swellHeight": {
+        "sg": 0.05
+      },
+      "swellPeriod": {
+        "sg": 8.13
+      },
+      "time": "2024-10-15T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.2
+      },
+      "waveDirection": {
+        "sg": 263.28
+      },
+      "waveHeight": {
+        "sg": 0.53
+      },
+      "wavePeriod": {
+        "sg": 12.44
+      },
+      "windDirection": {
+        "sg": 95.05
+      },
+      "windSpeed": {
+        "sg": 7.47
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.31
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 329.78
+      },
+      "swellHeight": {
+        "sg": 0.07
+      },
+      "swellPeriod": {
+        "sg": 6.5
+      },
+      "time": "2024-10-15T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.19
+      },
+      "waveDirection": {
+        "sg": 263.64
+      },
+      "waveHeight": {
+        "sg": 0.55
+      },
+      "wavePeriod": {
+        "sg": 12.25
+      },
+      "windDirection": {
+        "sg": 107.02
+      },
+      "windSpeed": {
+        "sg": 7.27
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.51
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 8.52
+      },
+      "swellHeight": {
+        "sg": 0.08
+      },
+      "swellPeriod": {
+        "sg": 4.88
+      },
+      "time": "2024-10-15T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.19
+      },
+      "waveDirection": {
+        "sg": 264.01
+      },
+      "waveHeight": {
+        "sg": 0.56
+      },
+      "wavePeriod": {
+        "sg": 12.05
+      },
+      "windDirection": {
+        "sg": 118.99
+      },
+      "windSpeed": {
+        "sg": 7.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.7
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 47.26
+      },
+      "swellHeight": {
+        "sg": 0.1
+      },
+      "swellPeriod": {
+        "sg": 3.25
+      },
+      "time": "2024-10-15T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.21
+      },
+      "waveDirection": {
+        "sg": 264.37
+      },
+      "waveHeight": {
+        "sg": 0.58
+      },
+      "wavePeriod": {
+        "sg": 11.86
+      },
+      "windDirection": {
+        "sg": 130.96
+      },
+      "windSpeed": {
+        "sg": 6.88
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.32
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 0.29
+      },
+      "swellHeight": {
+        "sg": 0.21
+      },
+      "swellPeriod": {
+        "sg": 5.97
+      },
+      "time": "2024-10-15T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.25
+      },
+      "waveDirection": {
+        "sg": 264.76
+      },
+      "waveHeight": {
+        "sg": 0.62
+      },
+      "wavePeriod": {
+        "sg": 11.71
+      },
+      "windDirection": {
+        "sg": 134.97
+      },
+      "windSpeed": {
+        "sg": 7.64
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.94
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 313.31
+      },
+      "swellHeight": {
+        "sg": 0.32
+      },
+      "swellPeriod": {
+        "sg": 8.7
+      },
+      "time": "2024-10-15T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.29
+      },
+      "waveDirection": {
+        "sg": 265.15
+      },
+      "waveHeight": {
+        "sg": 0.65
+      },
+      "wavePeriod": {
+        "sg": 11.57
+      },
+      "windDirection": {
+        "sg": 138.99
+      },
+      "windSpeed": {
+        "sg": 8.41
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.55
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 266.34
+      },
+      "swellHeight": {
+        "sg": 0.43
+      },
+      "swellPeriod": {
+        "sg": 11.42
+      },
+      "time": "2024-10-15T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.31
+      },
+      "waveDirection": {
+        "sg": 265.54
+      },
+      "waveHeight": {
+        "sg": 0.69
+      },
+      "wavePeriod": {
+        "sg": 11.42
+      },
+      "windDirection": {
+        "sg": 143
+      },
+      "windSpeed": {
+        "sg": 9.17
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.02
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 266.31
+      },
+      "swellHeight": {
+        "sg": 0.44
+      },
+      "swellPeriod": {
+        "sg": 11.28
+      },
+      "time": "2024-10-15T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.32
+      },
+      "waveDirection": {
+        "sg": 265.02
+      },
+      "waveHeight": {
+        "sg": 0.74
+      },
+      "wavePeriod": {
+        "sg": 11.28
+      },
+      "windDirection": {
+        "sg": 145.58
+      },
+      "windSpeed": {
+        "sg": 8.81
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.48
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 266.29
+      },
+      "swellHeight": {
+        "sg": 0.45
+      },
+      "swellPeriod": {
+        "sg": 11.13
+      },
+      "time": "2024-10-15T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.34
+      },
+      "waveDirection": {
+        "sg": 264.49
+      },
+      "waveHeight": {
+        "sg": 0.79
+      },
+      "wavePeriod": {
+        "sg": 11.13
+      },
+      "windDirection": {
+        "sg": 148.17
+      },
+      "windSpeed": {
+        "sg": 8.46
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.94
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.22
+      },
+      "swellDirection": {
+        "sg": 266.26
+      },
+      "swellHeight": {
+        "sg": 0.46
+      },
+      "swellPeriod": {
+        "sg": 10.99
+      },
+      "time": "2024-10-15T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.35
+      },
+      "waveDirection": {
+        "sg": 263.97
+      },
+      "waveHeight": {
+        "sg": 0.84
+      },
+      "wavePeriod": {
+        "sg": 10.99
+      },
+      "windDirection": {
+        "sg": 150.75
+      },
+      "windSpeed": {
+        "sg": 8.1
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.57
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.23
+      },
+      "swellDirection": {
+        "sg": 266.31
+      },
+      "swellHeight": {
+        "sg": 0.46
+      },
+      "swellPeriod": {
+        "sg": 10.84
+      },
+      "time": "2024-10-15T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 264.29
+      },
+      "waveHeight": {
+        "sg": 0.82
+      },
+      "wavePeriod": {
+        "sg": 10.84
+      },
+      "windDirection": {
+        "sg": 147.7
+      },
+      "windSpeed": {
+        "sg": 7.78
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 19.19
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.21
+      },
+      "swellDirection": {
+        "sg": 266.37
+      },
+      "swellHeight": {
+        "sg": 0.46
+      },
+      "swellPeriod": {
+        "sg": 10.7
+      },
+      "time": "2024-10-15T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 264.62
+      },
+      "waveHeight": {
+        "sg": 0.8
+      },
+      "wavePeriod": {
+        "sg": 10.7
+      },
+      "windDirection": {
+        "sg": 144.64
+      },
+      "windSpeed": {
+        "sg": 7.45
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.81
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 266.42
+      },
+      "swellHeight": {
+        "sg": 0.46
+      },
+      "swellPeriod": {
+        "sg": 10.55
+      },
+      "time": "2024-10-15T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 264.94
+      },
+      "waveHeight": {
+        "sg": 0.78
+      },
+      "wavePeriod": {
+        "sg": 10.55
+      },
+      "windDirection": {
+        "sg": 141.59
+      },
+      "windSpeed": {
+        "sg": 7.13
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.85
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 266.38
+      },
+      "swellHeight": {
+        "sg": 0.46
+      },
+      "swellPeriod": {
+        "sg": 10.42
+      },
+      "time": "2024-10-15T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 250.28
+      },
+      "waveHeight": {
+        "sg": 0.87
+      },
+      "wavePeriod": {
+        "sg": 8.95
+      },
+      "windDirection": {
+        "sg": 146.42
+      },
+      "windSpeed": {
+        "sg": 7.34
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.89
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 266.35
+      },
+      "swellHeight": {
+        "sg": 0.46
+      },
+      "swellPeriod": {
+        "sg": 10.28
+      },
+      "time": "2024-10-15T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 235.62
+      },
+      "waveHeight": {
+        "sg": 0.95
+      },
+      "wavePeriod": {
+        "sg": 7.36
+      },
+      "windDirection": {
+        "sg": 151.26
+      },
+      "windSpeed": {
+        "sg": 7.54
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.93
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 266.31
+      },
+      "swellHeight": {
+        "sg": 0.46
+      },
+      "swellPeriod": {
+        "sg": 10.15
+      },
+      "time": "2024-10-15T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 220.96
+      },
+      "waveHeight": {
+        "sg": 1.04
+      },
+      "wavePeriod": {
+        "sg": 5.76
+      },
+      "windDirection": {
+        "sg": 156.09
+      },
+      "windSpeed": {
+        "sg": 7.75
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.8
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 266.89
+      },
+      "swellHeight": {
+        "sg": 0.44
+      },
+      "swellPeriod": {
+        "sg": 10.03
+      },
+      "time": "2024-10-15T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 225.05
+      },
+      "waveHeight": {
+        "sg": 1.02
+      },
+      "wavePeriod": {
+        "sg": 6.21
+      },
+      "windDirection": {
+        "sg": 163.76
+      },
+      "windSpeed": {
+        "sg": 8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.67
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.2
+      },
+      "swellDirection": {
+        "sg": 267.46
+      },
+      "swellHeight": {
+        "sg": 0.42
+      },
+      "swellPeriod": {
+        "sg": 9.92
+      },
+      "time": "2024-10-15T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 229.13
+      },
+      "waveHeight": {
+        "sg": 1.01
+      },
+      "wavePeriod": {
+        "sg": 6.65
+      },
+      "windDirection": {
+        "sg": 171.42
+      },
+      "windSpeed": {
+        "sg": 8.26
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.55
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.2
+      },
+      "swellDirection": {
+        "sg": 268.04
+      },
+      "swellHeight": {
+        "sg": 0.4
+      },
+      "swellPeriod": {
+        "sg": 9.8
+      },
+      "time": "2024-10-16T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 233.22
+      },
+      "waveHeight": {
+        "sg": 0.99
+      },
+      "wavePeriod": {
+        "sg": 7.1
+      },
+      "windDirection": {
+        "sg": 179.09
+      },
+      "windSpeed": {
+        "sg": 8.51
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.66
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 265.54
+      },
+      "swellHeight": {
+        "sg": 0.33
+      },
+      "swellPeriod": {
+        "sg": 11.39
+      },
+      "time": "2024-10-16T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.36
+      },
+      "waveDirection": {
+        "sg": 242.21
+      },
+      "waveHeight": {
+        "sg": 0.96
+      },
+      "wavePeriod": {
+        "sg": 8.65
+      },
+      "windDirection": {
+        "sg": 178
+      },
+      "windSpeed": {
+        "sg": 8.03
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.53
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 263.04
+      },
+      "swellHeight": {
+        "sg": 0.26
+      },
+      "swellPeriod": {
+        "sg": 12.97
+      },
+      "time": "2024-10-16T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.36
+      },
+      "waveDirection": {
+        "sg": 251.21
+      },
+      "waveHeight": {
+        "sg": 0.93
+      },
+      "wavePeriod": {
+        "sg": 10.19
+      },
+      "windDirection": {
+        "sg": 176.9
+      },
+      "windSpeed": {
+        "sg": 7.55
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.41
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 260.54
+      },
+      "swellHeight": {
+        "sg": 0.19
+      },
+      "swellPeriod": {
+        "sg": 14.56
+      },
+      "time": "2024-10-16T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.36
+      },
+      "waveDirection": {
+        "sg": 260.2
+      },
+      "waveHeight": {
+        "sg": 0.9
+      },
+      "wavePeriod": {
+        "sg": 11.74
+      },
+      "windDirection": {
+        "sg": 175.81
+      },
+      "windSpeed": {
+        "sg": 7.07
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.41
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 261.41
+      },
+      "swellHeight": {
+        "sg": 0.22
+      },
+      "swellPeriod": {
+        "sg": 14.04
+      },
+      "time": "2024-10-16T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.36
+      },
+      "waveDirection": {
+        "sg": 260.92
+      },
+      "waveHeight": {
+        "sg": 0.88
+      },
+      "wavePeriod": {
+        "sg": 12.54
+      },
+      "windDirection": {
+        "sg": 167.4
+      },
+      "windSpeed": {
+        "sg": 7.44
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.41
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 262.28
+      },
+      "swellHeight": {
+        "sg": 0.24
+      },
+      "swellPeriod": {
+        "sg": 13.53
+      },
+      "time": "2024-10-16T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.36
+      },
+      "waveDirection": {
+        "sg": 261.64
+      },
+      "waveHeight": {
+        "sg": 0.87
+      },
+      "wavePeriod": {
+        "sg": 13.33
+      },
+      "windDirection": {
+        "sg": 158.99
+      },
+      "windSpeed": {
+        "sg": 7.8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.41
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.19
+      },
+      "swellDirection": {
+        "sg": 263.15
+      },
+      "swellHeight": {
+        "sg": 0.27
+      },
+      "swellPeriod": {
+        "sg": 13.01
+      },
+      "time": "2024-10-16T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 262.36
+      },
+      "waveHeight": {
+        "sg": 0.85
+      },
+      "wavePeriod": {
+        "sg": 14.13
+      },
+      "windDirection": {
+        "sg": 150.58
+      },
+      "windSpeed": {
+        "sg": 8.17
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.49
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 263.2
+      },
+      "swellHeight": {
+        "sg": 0.35
+      },
+      "swellPeriod": {
+        "sg": 13.16
+      },
+      "time": "2024-10-16T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 262.84
+      },
+      "waveHeight": {
+        "sg": 0.89
+      },
+      "wavePeriod": {
+        "sg": 13.91
+      },
+      "windDirection": {
+        "sg": 148.18
+      },
+      "windSpeed": {
+        "sg": 8.54
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.56
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 263.25
+      },
+      "swellHeight": {
+        "sg": 0.43
+      },
+      "swellPeriod": {
+        "sg": 13.32
+      },
+      "time": "2024-10-16T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.42
+      },
+      "waveDirection": {
+        "sg": 263.31
+      },
+      "waveHeight": {
+        "sg": 0.92
+      },
+      "wavePeriod": {
+        "sg": 13.69
+      },
+      "windDirection": {
+        "sg": 145.79
+      },
+      "windSpeed": {
+        "sg": 8.92
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.64
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.15
+      },
+      "swellDirection": {
+        "sg": 263.3
+      },
+      "swellHeight": {
+        "sg": 0.51
+      },
+      "swellPeriod": {
+        "sg": 13.47
+      },
+      "time": "2024-10-16T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.44
+      },
+      "waveDirection": {
+        "sg": 263.79
+      },
+      "waveHeight": {
+        "sg": 0.96
+      },
+      "wavePeriod": {
+        "sg": 13.47
+      },
+      "windDirection": {
+        "sg": 143.39
+      },
+      "windSpeed": {
+        "sg": 9.29
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.05
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 263.76
+      },
+      "swellHeight": {
+        "sg": 0.56
+      },
+      "swellPeriod": {
+        "sg": 13.37
+      },
+      "time": "2024-10-16T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.46
+      },
+      "waveDirection": {
+        "sg": 263.51
+      },
+      "waveHeight": {
+        "sg": 1.01
+      },
+      "wavePeriod": {
+        "sg": 13.37
+      },
+      "windDirection": {
+        "sg": 150.5
+      },
+      "windSpeed": {
+        "sg": 9.41
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.46
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 264.23
+      },
+      "swellHeight": {
+        "sg": 0.6
+      },
+      "swellPeriod": {
+        "sg": 13.27
+      },
+      "time": "2024-10-16T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.48
+      },
+      "waveDirection": {
+        "sg": 263.22
+      },
+      "waveHeight": {
+        "sg": 1.07
+      },
+      "wavePeriod": {
+        "sg": 13.27
+      },
+      "windDirection": {
+        "sg": 157.6
+      },
+      "windSpeed": {
+        "sg": 9.54
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.87
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.18
+      },
+      "swellDirection": {
+        "sg": 264.69
+      },
+      "swellHeight": {
+        "sg": 0.65
+      },
+      "swellPeriod": {
+        "sg": 13.17
+      },
+      "time": "2024-10-16T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.5
+      },
+      "waveDirection": {
+        "sg": 262.94
+      },
+      "waveHeight": {
+        "sg": 1.12
+      },
+      "wavePeriod": {
+        "sg": 13.17
+      },
+      "windDirection": {
+        "sg": 164.71
+      },
+      "windSpeed": {
+        "sg": 9.66
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.52
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 264.67
+      },
+      "swellHeight": {
+        "sg": 0.66
+      },
+      "swellPeriod": {
+        "sg": 12.99
+      },
+      "time": "2024-10-16T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.52
+      },
+      "waveDirection": {
+        "sg": 263.42
+      },
+      "waveHeight": {
+        "sg": 1.17
+      },
+      "wavePeriod": {
+        "sg": 12.99
+      },
+      "windDirection": {
+        "sg": 174.74
+      },
+      "windSpeed": {
+        "sg": 9.61
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.17
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 264.66
+      },
+      "swellHeight": {
+        "sg": 0.67
+      },
+      "swellPeriod": {
+        "sg": 12.81
+      },
+      "time": "2024-10-16T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.55
+      },
+      "waveDirection": {
+        "sg": 263.89
+      },
+      "waveHeight": {
+        "sg": 1.23
+      },
+      "wavePeriod": {
+        "sg": 12.81
+      },
+      "windDirection": {
+        "sg": 184.78
+      },
+      "windSpeed": {
+        "sg": 9.56
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.82
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 264.64
+      },
+      "swellHeight": {
+        "sg": 0.68
+      },
+      "swellPeriod": {
+        "sg": 12.63
+      },
+      "time": "2024-10-16T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.57
+      },
+      "waveDirection": {
+        "sg": 264.37
+      },
+      "waveHeight": {
+        "sg": 1.28
+      },
+      "wavePeriod": {
+        "sg": 12.63
+      },
+      "windDirection": {
+        "sg": 194.81
+      },
+      "windSpeed": {
+        "sg": 9.51
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.95
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 264.58
+      },
+      "swellHeight": {
+        "sg": 0.69
+      },
+      "swellPeriod": {
+        "sg": 12.58
+      },
+      "time": "2024-10-16T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.59
+      },
+      "waveDirection": {
+        "sg": 264.12
+      },
+      "waveHeight": {
+        "sg": 1.2
+      },
+      "wavePeriod": {
+        "sg": 12.58
+      },
+      "windDirection": {
+        "sg": 187.78
+      },
+      "windSpeed": {
+        "sg": 8.74
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.08
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 264.51
+      },
+      "swellHeight": {
+        "sg": 0.7
+      },
+      "swellPeriod": {
+        "sg": 12.54
+      },
+      "time": "2024-10-16T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.61
+      },
+      "waveDirection": {
+        "sg": 263.88
+      },
+      "waveHeight": {
+        "sg": 1.13
+      },
+      "wavePeriod": {
+        "sg": 12.54
+      },
+      "windDirection": {
+        "sg": 180.75
+      },
+      "windSpeed": {
+        "sg": 7.96
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.21
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 264.45
+      },
+      "swellHeight": {
+        "sg": 0.71
+      },
+      "swellPeriod": {
+        "sg": 12.49
+      },
+      "time": "2024-10-16T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.62
+      },
+      "waveDirection": {
+        "sg": 263.63
+      },
+      "waveHeight": {
+        "sg": 1.05
+      },
+      "wavePeriod": {
+        "sg": 12.49
+      },
+      "windDirection": {
+        "sg": 173.72
+      },
+      "windSpeed": {
+        "sg": 7.19
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.19
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 264.32
+      },
+      "swellHeight": {
+        "sg": 0.72
+      },
+      "swellPeriod": {
+        "sg": 12.48
+      },
+      "time": "2024-10-16T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.62
+      },
+      "waveDirection": {
+        "sg": 263.41
+      },
+      "waveHeight": {
+        "sg": 1.06
+      },
+      "wavePeriod": {
+        "sg": 12.48
+      },
+      "windDirection": {
+        "sg": 181.08
+      },
+      "windSpeed": {
+        "sg": 7.34
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.17
+      },
+      "currentSpeed": {
+        "sg": 0.08
+      },
+      "seaLevel": {
+        "sg": -0.09
+      },
+      "swellDirection": {
+        "sg": 264.19
+      },
+      "swellHeight": {
+        "sg": 0.73
+      },
+      "swellPeriod": {
+        "sg": 12.48
+      },
+      "time": "2024-10-16T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.62
+      },
+      "waveDirection": {
+        "sg": 263.2
+      },
+      "waveHeight": {
+        "sg": 1.06
+      },
+      "wavePeriod": {
+        "sg": 12.48
+      },
+      "windDirection": {
+        "sg": 188.45
+      },
+      "windSpeed": {
+        "sg": 7.49
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 18.15
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.08
+      },
+      "swellDirection": {
+        "sg": 264.06
+      },
+      "swellHeight": {
+        "sg": 0.74
+      },
+      "swellPeriod": {
+        "sg": 12.47
+      },
+      "time": "2024-10-16T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.61
+      },
+      "waveDirection": {
+        "sg": 262.98
+      },
+      "waveHeight": {
+        "sg": 1.07
+      },
+      "wavePeriod": {
+        "sg": 12.47
+      },
+      "windDirection": {
+        "sg": 195.81
+      },
+      "windSpeed": {
+        "sg": 7.64
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.78
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.08
+      },
+      "swellDirection": {
+        "sg": 263.88
+      },
+      "swellHeight": {
+        "sg": 0.76
+      },
+      "swellPeriod": {
+        "sg": 12.43
+      },
+      "time": "2024-10-16T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.61
+      },
+      "waveDirection": {
+        "sg": 262.83
+      },
+      "waveHeight": {
+        "sg": 1.07
+      },
+      "wavePeriod": {
+        "sg": 12.43
+      },
+      "windDirection": {
+        "sg": 217.69
+      },
+      "windSpeed": {
+        "sg": 6.91
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.41
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 263.69
+      },
+      "swellHeight": {
+        "sg": 0.78
+      },
+      "swellPeriod": {
+        "sg": 12.39
+      },
+      "time": "2024-10-16T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.61
+      },
+      "waveDirection": {
+        "sg": 262.68
+      },
+      "waveHeight": {
+        "sg": 1.06
+      },
+      "wavePeriod": {
+        "sg": 12.39
+      },
+      "windDirection": {
+        "sg": 239.58
+      },
+      "windSpeed": {
+        "sg": 6.19
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.04
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 263.51
+      },
+      "swellHeight": {
+        "sg": 0.8
+      },
+      "swellPeriod": {
+        "sg": 12.35
+      },
+      "time": "2024-10-17T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.6
+      },
+      "waveDirection": {
+        "sg": 262.53
+      },
+      "waveHeight": {
+        "sg": 1.06
+      },
+      "wavePeriod": {
+        "sg": 12.35
+      },
+      "windDirection": {
+        "sg": 261.46
+      },
+      "windSpeed": {
+        "sg": 5.46
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.96
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": -0.09
+      },
+      "swellDirection": {
+        "sg": 259.86
+      },
+      "swellHeight": {
+        "sg": 0.64
+      },
+      "swellPeriod": {
+        "sg": 13.73
+      },
+      "time": "2024-10-17T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.6
+      },
+      "waveDirection": {
+        "sg": 263.12
+      },
+      "waveHeight": {
+        "sg": 1.07
+      },
+      "wavePeriod": {
+        "sg": 12.26
+      },
+      "windDirection": {
+        "sg": 263.75
+      },
+      "windSpeed": {
+        "sg": 5.09
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.88
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": -0.09
+      },
+      "swellDirection": {
+        "sg": 256.21
+      },
+      "swellHeight": {
+        "sg": 0.48
+      },
+      "swellPeriod": {
+        "sg": 15.1
+      },
+      "time": "2024-10-17T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.59
+      },
+      "waveDirection": {
+        "sg": 263.71
+      },
+      "waveHeight": {
+        "sg": 1.08
+      },
+      "wavePeriod": {
+        "sg": 12.17
+      },
+      "windDirection": {
+        "sg": 266.05
+      },
+      "windSpeed": {
+        "sg": 4.73
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.79
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 252.56
+      },
+      "swellHeight": {
+        "sg": 0.32
+      },
+      "swellPeriod": {
+        "sg": 16.48
+      },
+      "time": "2024-10-17T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.58
+      },
+      "waveDirection": {
+        "sg": 264.3
+      },
+      "waveHeight": {
+        "sg": 1.09
+      },
+      "wavePeriod": {
+        "sg": 12.08
+      },
+      "windDirection": {
+        "sg": 268.34
+      },
+      "windSpeed": {
+        "sg": 4.36
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.73
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 235.08
+      },
+      "swellHeight": {
+        "sg": 0.33
+      },
+      "swellPeriod": {
+        "sg": 12.74
+      },
+      "time": "2024-10-17T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.56
+      },
+      "waveDirection": {
+        "sg": 261.28
+      },
+      "waveHeight": {
+        "sg": 1.12
+      },
+      "wavePeriod": {
+        "sg": 13.2
+      },
+      "windDirection": {
+        "sg": 277.24
+      },
+      "windSpeed": {
+        "sg": 4.05
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.66
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 217.61
+      },
+      "swellHeight": {
+        "sg": 0.34
+      },
+      "swellPeriod": {
+        "sg": 9.01
+      },
+      "time": "2024-10-17T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.55
+      },
+      "waveDirection": {
+        "sg": 258.26
+      },
+      "waveHeight": {
+        "sg": 1.14
+      },
+      "wavePeriod": {
+        "sg": 14.32
+      },
+      "windDirection": {
+        "sg": 286.15
+      },
+      "windSpeed": {
+        "sg": 3.73
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.6
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 200.13
+      },
+      "swellHeight": {
+        "sg": 0.35
+      },
+      "swellPeriod": {
+        "sg": 5.27
+      },
+      "time": "2024-10-17T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.55
+      },
+      "waveDirection": {
+        "sg": 255.24
+      },
+      "waveHeight": {
+        "sg": 1.17
+      },
+      "wavePeriod": {
+        "sg": 15.44
+      },
+      "windDirection": {
+        "sg": 295.05
+      },
+      "windSpeed": {
+        "sg": 3.42
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.56
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 219.61
+      },
+      "swellHeight": {
+        "sg": 0.66
+      },
+      "swellPeriod": {
+        "sg": 8.5
+      },
+      "time": "2024-10-17T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.57
+      },
+      "waveDirection": {
+        "sg": 255.75
+      },
+      "waveHeight": {
+        "sg": 1.21
+      },
+      "wavePeriod": {
+        "sg": 15.28
+      },
+      "windDirection": {
+        "sg": 295.47
+      },
+      "windSpeed": {
+        "sg": 2.69
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.53
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 239.1
+      },
+      "swellHeight": {
+        "sg": 0.96
+      },
+      "swellPeriod": {
+        "sg": 11.72
+      },
+      "time": "2024-10-17T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.58
+      },
+      "waveDirection": {
+        "sg": 256.27
+      },
+      "waveHeight": {
+        "sg": 1.25
+      },
+      "wavePeriod": {
+        "sg": 15.11
+      },
+      "windDirection": {
+        "sg": 295.89
+      },
+      "windSpeed": {
+        "sg": 1.95
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.49
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 258.58
+      },
+      "swellHeight": {
+        "sg": 1.27
+      },
+      "swellPeriod": {
+        "sg": 14.95
+      },
+      "time": "2024-10-17T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.59
+      },
+      "waveDirection": {
+        "sg": 256.78
+      },
+      "waveHeight": {
+        "sg": 1.29
+      },
+      "wavePeriod": {
+        "sg": 14.95
+      },
+      "windDirection": {
+        "sg": 296.31
+      },
+      "windSpeed": {
+        "sg": 1.22
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.58
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 258.5
+      },
+      "swellHeight": {
+        "sg": 1.31
+      },
+      "swellPeriod": {
+        "sg": 14.74
+      },
+      "time": "2024-10-17T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.61
+      },
+      "waveDirection": {
+        "sg": 256.74
+      },
+      "waveHeight": {
+        "sg": 1.33
+      },
+      "wavePeriod": {
+        "sg": 14.74
+      },
+      "windDirection": {
+        "sg": 287.06
+      },
+      "windSpeed": {
+        "sg": 1.76
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.67
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 258.42
+      },
+      "swellHeight": {
+        "sg": 1.35
+      },
+      "swellPeriod": {
+        "sg": 14.54
+      },
+      "time": "2024-10-17T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.62
+      },
+      "waveDirection": {
+        "sg": 256.69
+      },
+      "waveHeight": {
+        "sg": 1.36
+      },
+      "wavePeriod": {
+        "sg": 14.54
+      },
+      "windDirection": {
+        "sg": 277.82
+      },
+      "windSpeed": {
+        "sg": 2.3
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.76
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 258.34
+      },
+      "swellHeight": {
+        "sg": 1.39
+      },
+      "swellPeriod": {
+        "sg": 14.33
+      },
+      "time": "2024-10-17T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.63
+      },
+      "waveDirection": {
+        "sg": 256.65
+      },
+      "waveHeight": {
+        "sg": 1.4
+      },
+      "wavePeriod": {
+        "sg": 14.33
+      },
+      "windDirection": {
+        "sg": 268.57
+      },
+      "windSpeed": {
+        "sg": 2.84
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.66
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.14
+      },
+      "swellDirection": {
+        "sg": 258.48
+      },
+      "swellHeight": {
+        "sg": 1.41
+      },
+      "swellPeriod": {
+        "sg": 14.26
+      },
+      "time": "2024-10-17T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.64
+      },
+      "waveDirection": {
+        "sg": 256.74
+      },
+      "waveHeight": {
+        "sg": 1.44
+      },
+      "wavePeriod": {
+        "sg": 14.26
+      },
+      "windDirection": {
+        "sg": 278.13
+      },
+      "windSpeed": {
+        "sg": 4.03
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.57
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 258.61
+      },
+      "swellHeight": {
+        "sg": 1.44
+      },
+      "swellPeriod": {
+        "sg": 14.18
+      },
+      "time": "2024-10-17T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.64
+      },
+      "waveDirection": {
+        "sg": 256.84
+      },
+      "waveHeight": {
+        "sg": 1.47
+      },
+      "wavePeriod": {
+        "sg": 14.18
+      },
+      "windDirection": {
+        "sg": 287.68
+      },
+      "windSpeed": {
+        "sg": 5.22
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.47
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 258.75
+      },
+      "swellHeight": {
+        "sg": 1.46
+      },
+      "swellPeriod": {
+        "sg": 14.11
+      },
+      "time": "2024-10-17T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.65
+      },
+      "waveDirection": {
+        "sg": 256.93
+      },
+      "waveHeight": {
+        "sg": 1.51
+      },
+      "wavePeriod": {
+        "sg": 14.11
+      },
+      "windDirection": {
+        "sg": 297.24
+      },
+      "windSpeed": {
+        "sg": 6.41
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.28
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 259
+      },
+      "swellHeight": {
+        "sg": 1.49
+      },
+      "swellPeriod": {
+        "sg": 14.08
+      },
+      "time": "2024-10-17T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.66
+      },
+      "waveDirection": {
+        "sg": 257.26
+      },
+      "waveHeight": {
+        "sg": 1.53
+      },
+      "wavePeriod": {
+        "sg": 14.08
+      },
+      "windDirection": {
+        "sg": 295.06
+      },
+      "windSpeed": {
+        "sg": 6.24
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.09
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.17
+      },
+      "swellDirection": {
+        "sg": 259.25
+      },
+      "swellHeight": {
+        "sg": 1.53
+      },
+      "swellPeriod": {
+        "sg": 14.04
+      },
+      "time": "2024-10-17T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.66
+      },
+      "waveDirection": {
+        "sg": 257.59
+      },
+      "waveHeight": {
+        "sg": 1.54
+      },
+      "wavePeriod": {
+        "sg": 14.04
+      },
+      "windDirection": {
+        "sg": 292.87
+      },
+      "windSpeed": {
+        "sg": 6.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.89
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.16
+      },
+      "swellDirection": {
+        "sg": 259.5
+      },
+      "swellHeight": {
+        "sg": 1.56
+      },
+      "swellPeriod": {
+        "sg": 14.01
+      },
+      "time": "2024-10-17T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.65
+      },
+      "waveDirection": {
+        "sg": 257.92
+      },
+      "waveHeight": {
+        "sg": 1.56
+      },
+      "wavePeriod": {
+        "sg": 14.01
+      },
+      "windDirection": {
+        "sg": 290.69
+      },
+      "windSpeed": {
+        "sg": 5.91
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.81
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.13
+      },
+      "swellDirection": {
+        "sg": 259.62
+      },
+      "swellHeight": {
+        "sg": 1.57
+      },
+      "swellPeriod": {
+        "sg": 13.88
+      },
+      "time": "2024-10-17T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.63
+      },
+      "waveDirection": {
+        "sg": 258.27
+      },
+      "waveHeight": {
+        "sg": 1.57
+      },
+      "wavePeriod": {
+        "sg": 13.88
+      },
+      "windDirection": {
+        "sg": 290.81
+      },
+      "windSpeed": {
+        "sg": 5.39
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.74
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 259.73
+      },
+      "swellHeight": {
+        "sg": 1.58
+      },
+      "swellPeriod": {
+        "sg": 13.76
+      },
+      "time": "2024-10-17T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.6
+      },
+      "waveDirection": {
+        "sg": 258.61
+      },
+      "waveHeight": {
+        "sg": 1.58
+      },
+      "wavePeriod": {
+        "sg": 13.76
+      },
+      "windDirection": {
+        "sg": 290.92
+      },
+      "windSpeed": {
+        "sg": 4.86
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.66
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 259.85
+      },
+      "swellHeight": {
+        "sg": 1.59
+      },
+      "swellPeriod": {
+        "sg": 13.63
+      },
+      "time": "2024-10-17T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.58
+      },
+      "waveDirection": {
+        "sg": 258.96
+      },
+      "waveHeight": {
+        "sg": 1.59
+      },
+      "wavePeriod": {
+        "sg": 13.63
+      },
+      "windDirection": {
+        "sg": 291.04
+      },
+      "windSpeed": {
+        "sg": 4.34
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.65
+      },
+      "currentSpeed": {
+        "sg": 0.01
+      },
+      "seaLevel": {
+        "sg": -0.1
+      },
+      "swellDirection": {
+        "sg": 259.88
+      },
+      "swellHeight": {
+        "sg": 1.59
+      },
+      "swellPeriod": {
+        "sg": 13.58
+      },
+      "time": "2024-10-17T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.55
+      },
+      "waveDirection": {
+        "sg": 259.22
+      },
+      "waveHeight": {
+        "sg": 1.59
+      },
+      "wavePeriod": {
+        "sg": 13.58
+      },
+      "windDirection": {
+        "sg": 290.91
+      },
+      "windSpeed": {
+        "sg": 4.69
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.65
+      },
+      "currentSpeed": {
+        "sg": 0.02
+      },
+      "seaLevel": {
+        "sg": -0.09
+      },
+      "swellDirection": {
+        "sg": 259.92
+      },
+      "swellHeight": {
+        "sg": 1.59
+      },
+      "swellPeriod": {
+        "sg": 13.52
+      },
+      "time": "2024-10-17T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.52
+      },
+      "waveDirection": {
+        "sg": 259.49
+      },
+      "waveHeight": {
+        "sg": 1.59
+      },
+      "wavePeriod": {
+        "sg": 13.52
+      },
+      "windDirection": {
+        "sg": 290.78
+      },
+      "windSpeed": {
+        "sg": 5.03
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.64
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.08
+      },
+      "swellDirection": {
+        "sg": 259.95
+      },
+      "swellHeight": {
+        "sg": 1.59
+      },
+      "swellPeriod": {
+        "sg": 13.47
+      },
+      "time": "2024-10-18T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.49
+      },
+      "waveDirection": {
+        "sg": 259.75
+      },
+      "waveHeight": {
+        "sg": 1.59
+      },
+      "wavePeriod": {
+        "sg": 13.47
+      },
+      "windDirection": {
+        "sg": 290.65
+      },
+      "windSpeed": {
+        "sg": 5.38
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.67
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.05
+      },
+      "swellDirection": {
+        "sg": 260.22
+      },
+      "swellHeight": {
+        "sg": 1.59
+      },
+      "swellPeriod": {
+        "sg": 13.44
+      },
+      "time": "2024-10-18T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.47
+      },
+      "waveDirection": {
+        "sg": 259.94
+      },
+      "waveHeight": {
+        "sg": 1.59
+      },
+      "wavePeriod": {
+        "sg": 13.44
+      },
+      "windDirection": {
+        "sg": 297.62
+      },
+      "windSpeed": {
+        "sg": 5.29
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.7
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.02
+      },
+      "swellDirection": {
+        "sg": 260.49
+      },
+      "swellHeight": {
+        "sg": 1.59
+      },
+      "swellPeriod": {
+        "sg": 13.4
+      },
+      "time": "2024-10-18T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.45
+      },
+      "waveDirection": {
+        "sg": 260.14
+      },
+      "waveHeight": {
+        "sg": 1.59
+      },
+      "wavePeriod": {
+        "sg": 13.4
+      },
+      "windDirection": {
+        "sg": 304.58
+      },
+      "windSpeed": {
+        "sg": 5.19
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.73
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": 0
+      },
+      "swellDirection": {
+        "sg": 260.76
+      },
+      "swellHeight": {
+        "sg": 1.59
+      },
+      "swellPeriod": {
+        "sg": 13.37
+      },
+      "time": "2024-10-18T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.43
+      },
+      "waveDirection": {
+        "sg": 260.33
+      },
+      "waveHeight": {
+        "sg": 1.59
+      },
+      "wavePeriod": {
+        "sg": 13.37
+      },
+      "windDirection": {
+        "sg": 311.55
+      },
+      "windSpeed": {
+        "sg": 5.1
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.69
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": 0.02
+      },
+      "swellDirection": {
+        "sg": 260.78
+      },
+      "swellHeight": {
+        "sg": 1.58
+      },
+      "swellPeriod": {
+        "sg": 13.31
+      },
+      "time": "2024-10-18T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.41
+      },
+      "waveDirection": {
+        "sg": 260.43
+      },
+      "waveHeight": {
+        "sg": 1.58
+      },
+      "wavePeriod": {
+        "sg": 13.31
+      },
+      "windDirection": {
+        "sg": 311.71
+      },
+      "windSpeed": {
+        "sg": 4.59
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.65
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": 0.04
+      },
+      "swellDirection": {
+        "sg": 260.8
+      },
+      "swellHeight": {
+        "sg": 1.58
+      },
+      "swellPeriod": {
+        "sg": 13.26
+      },
+      "time": "2024-10-18T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 260.52
+      },
+      "waveHeight": {
+        "sg": 1.58
+      },
+      "wavePeriod": {
+        "sg": 13.26
+      },
+      "windDirection": {
+        "sg": 311.88
+      },
+      "windSpeed": {
+        "sg": 4.08
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.61
+      },
+      "currentSpeed": {
+        "sg": 0.07
+      },
+      "seaLevel": {
+        "sg": 0.07
+      },
+      "swellDirection": {
+        "sg": 260.82
+      },
+      "swellHeight": {
+        "sg": 1.57
+      },
+      "swellPeriod": {
+        "sg": 13.2
+      },
+      "time": "2024-10-18T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 260.62
+      },
+      "waveHeight": {
+        "sg": 1.57
+      },
+      "wavePeriod": {
+        "sg": 13.2
+      },
+      "windDirection": {
+        "sg": 312.04
+      },
+      "windSpeed": {
+        "sg": 3.57
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.59
+      },
+      "currentSpeed": {
+        "sg": 0.06
+      },
+      "seaLevel": {
+        "sg": 0.07
+      },
+      "swellDirection": {
+        "sg": 260.92
+      },
+      "swellHeight": {
+        "sg": 1.56
+      },
+      "swellPeriod": {
+        "sg": 13.12
+      },
+      "time": "2024-10-18T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 261.13
+      },
+      "waveHeight": {
+        "sg": 1.56
+      },
+      "wavePeriod": {
+        "sg": 13.12
+      },
+      "windDirection": {
+        "sg": 313.55
+      },
+      "windSpeed": {
+        "sg": 3.36
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.57
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": 0.02
+      },
+      "swellDirection": {
+        "sg": 261.03
+      },
+      "swellHeight": {
+        "sg": 1.55
+      },
+      "swellPeriod": {
+        "sg": 13.05
+      },
+      "time": "2024-10-18T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 261.65
+      },
+      "waveHeight": {
+        "sg": 1.55
+      },
+      "wavePeriod": {
+        "sg": 13.05
+      },
+      "windDirection": {
+        "sg": 315.07
+      },
+      "windSpeed": {
+        "sg": 3.16
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.56
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 261.13
+      },
+      "swellHeight": {
+        "sg": 1.54
+      },
+      "swellPeriod": {
+        "sg": 12.97
+      },
+      "time": "2024-10-18T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 262.16
+      },
+      "waveHeight": {
+        "sg": 1.54
+      },
+      "wavePeriod": {
+        "sg": 12.97
+      },
+      "windDirection": {
+        "sg": 316.58
+      },
+      "windSpeed": {
+        "sg": 2.95
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.5
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.08
+      },
+      "swellDirection": {
+        "sg": 261.46
+      },
+      "swellHeight": {
+        "sg": 1.53
+      },
+      "swellPeriod": {
+        "sg": 12.89
+      },
+      "time": "2024-10-18T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 262.22
+      },
+      "waveHeight": {
+        "sg": 1.53
+      },
+      "wavePeriod": {
+        "sg": 12.89
+      },
+      "windDirection": {
+        "sg": 313.4
+      },
+      "windSpeed": {
+        "sg": 3.79
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.43
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 261.78
+      },
+      "swellHeight": {
+        "sg": 1.51
+      },
+      "swellPeriod": {
+        "sg": 12.8
+      },
+      "time": "2024-10-18T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.4
+      },
+      "waveDirection": {
+        "sg": 262.29
+      },
+      "waveHeight": {
+        "sg": 1.51
+      },
+      "wavePeriod": {
+        "sg": 12.8
+      },
+      "windDirection": {
+        "sg": 310.23
+      },
+      "windSpeed": {
+        "sg": 4.63
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.37
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.12
+      },
+      "swellDirection": {
+        "sg": 262.11
+      },
+      "swellHeight": {
+        "sg": 1.5
+      },
+      "swellPeriod": {
+        "sg": 12.72
+      },
+      "time": "2024-10-18T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.4
+      },
+      "waveDirection": {
+        "sg": 262.35
+      },
+      "waveHeight": {
+        "sg": 1.5
+      },
+      "wavePeriod": {
+        "sg": 12.72
+      },
+      "windDirection": {
+        "sg": 307.05
+      },
+      "windSpeed": {
+        "sg": 5.47
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.38
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.12
+      },
+      "swellDirection": {
+        "sg": 262.58
+      },
+      "swellHeight": {
+        "sg": 1.49
+      },
+      "swellPeriod": {
+        "sg": 12.66
+      },
+      "time": "2024-10-18T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.41
+      },
+      "waveDirection": {
+        "sg": 262.45
+      },
+      "waveHeight": {
+        "sg": 1.49
+      },
+      "wavePeriod": {
+        "sg": 12.66
+      },
+      "windDirection": {
+        "sg": 304.37
+      },
+      "windSpeed": {
+        "sg": 5.16
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.38
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.11
+      },
+      "swellDirection": {
+        "sg": 263.06
+      },
+      "swellHeight": {
+        "sg": 1.48
+      },
+      "swellPeriod": {
+        "sg": 12.59
+      },
+      "time": "2024-10-18T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.42
+      },
+      "waveDirection": {
+        "sg": 262.56
+      },
+      "waveHeight": {
+        "sg": 1.48
+      },
+      "wavePeriod": {
+        "sg": 12.59
+      },
+      "windDirection": {
+        "sg": 301.69
+      },
+      "windSpeed": {
+        "sg": 4.84
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.38
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.08
+      },
+      "swellDirection": {
+        "sg": 263.53
+      },
+      "swellHeight": {
+        "sg": 1.47
+      },
+      "swellPeriod": {
+        "sg": 12.53
+      },
+      "time": "2024-10-18T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.43
+      },
+      "waveDirection": {
+        "sg": 262.66
+      },
+      "waveHeight": {
+        "sg": 1.47
+      },
+      "wavePeriod": {
+        "sg": 12.53
+      },
+      "windDirection": {
+        "sg": 299.01
+      },
+      "windSpeed": {
+        "sg": 4.53
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.36
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.07
+      },
+      "swellDirection": {
+        "sg": 263.78
+      },
+      "swellHeight": {
+        "sg": 1.46
+      },
+      "swellPeriod": {
+        "sg": 12.44
+      },
+      "time": "2024-10-18T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.44
+      },
+      "waveDirection": {
+        "sg": 262.95
+      },
+      "waveHeight": {
+        "sg": 1.46
+      },
+      "wavePeriod": {
+        "sg": 12.44
+      },
+      "windDirection": {
+        "sg": 297.14
+      },
+      "windSpeed": {
+        "sg": 4.49
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.35
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.07
+      },
+      "swellDirection": {
+        "sg": 264.02
+      },
+      "swellHeight": {
+        "sg": 1.44
+      },
+      "swellPeriod": {
+        "sg": 12.35
+      },
+      "time": "2024-10-18T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.46
+      },
+      "waveDirection": {
+        "sg": 263.25
+      },
+      "waveHeight": {
+        "sg": 1.44
+      },
+      "wavePeriod": {
+        "sg": 12.35
+      },
+      "windDirection": {
+        "sg": 295.28
+      },
+      "windSpeed": {
+        "sg": 4.46
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.33
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.08
+      },
+      "swellDirection": {
+        "sg": 264.27
+      },
+      "swellHeight": {
+        "sg": 1.43
+      },
+      "swellPeriod": {
+        "sg": 12.26
+      },
+      "time": "2024-10-18T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.46
+      },
+      "waveDirection": {
+        "sg": 263.54
+      },
+      "waveHeight": {
+        "sg": 1.43
+      },
+      "wavePeriod": {
+        "sg": 12.26
+      },
+      "windDirection": {
+        "sg": 293.41
+      },
+      "windSpeed": {
+        "sg": 4.42
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.31
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.08
+      },
+      "swellDirection": {
+        "sg": 264.53
+      },
+      "swellHeight": {
+        "sg": 1.42
+      },
+      "swellPeriod": {
+        "sg": 12.14
+      },
+      "time": "2024-10-18T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.45
+      },
+      "waveDirection": {
+        "sg": 263.87
+      },
+      "waveHeight": {
+        "sg": 1.42
+      },
+      "wavePeriod": {
+        "sg": 12.14
+      },
+      "windDirection": {
+        "sg": 285.99
+      },
+      "windSpeed": {
+        "sg": 4.59
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.29
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.07
+      },
+      "swellDirection": {
+        "sg": 264.8
+      },
+      "swellHeight": {
+        "sg": 1.41
+      },
+      "swellPeriod": {
+        "sg": 12.03
+      },
+      "time": "2024-10-18T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.44
+      },
+      "waveDirection": {
+        "sg": 264.21
+      },
+      "waveHeight": {
+        "sg": 1.41
+      },
+      "wavePeriod": {
+        "sg": 12.03
+      },
+      "windDirection": {
+        "sg": 278.57
+      },
+      "windSpeed": {
+        "sg": 4.76
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.27
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.05
+      },
+      "swellDirection": {
+        "sg": 265.06
+      },
+      "swellHeight": {
+        "sg": 1.4
+      },
+      "swellPeriod": {
+        "sg": 11.91
+      },
+      "time": "2024-10-18T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.43
+      },
+      "waveDirection": {
+        "sg": 264.54
+      },
+      "waveHeight": {
+        "sg": 1.4
+      },
+      "wavePeriod": {
+        "sg": 11.91
+      },
+      "windDirection": {
+        "sg": 271.15
+      },
+      "windSpeed": {
+        "sg": 4.93
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.29
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 265.11
+      },
+      "swellHeight": {
+        "sg": 1.38
+      },
+      "swellPeriod": {
+        "sg": 11.86
+      },
+      "time": "2024-10-18T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.42
+      },
+      "waveDirection": {
+        "sg": 264.88
+      },
+      "waveHeight": {
+        "sg": 1.38
+      },
+      "wavePeriod": {
+        "sg": 11.86
+      },
+      "windDirection": {
+        "sg": 257.3
+      },
+      "windSpeed": {
+        "sg": 4.97
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.31
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 265.15
+      },
+      "swellHeight": {
+        "sg": 1.35
+      },
+      "swellPeriod": {
+        "sg": 11.8
+      },
+      "time": "2024-10-18T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.41
+      },
+      "waveDirection": {
+        "sg": 265.21
+      },
+      "waveHeight": {
+        "sg": 1.35
+      },
+      "wavePeriod": {
+        "sg": 11.8
+      },
+      "windDirection": {
+        "sg": 243.45
+      },
+      "windSpeed": {
+        "sg": 5.02
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.33
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 265.2
+      },
+      "swellHeight": {
+        "sg": 1.33
+      },
+      "swellPeriod": {
+        "sg": 11.75
+      },
+      "time": "2024-10-19T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.4
+      },
+      "waveDirection": {
+        "sg": 265.55
+      },
+      "waveHeight": {
+        "sg": 1.33
+      },
+      "wavePeriod": {
+        "sg": 11.75
+      },
+      "windDirection": {
+        "sg": 229.6
+      },
+      "windSpeed": {
+        "sg": 5.06
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.47
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.04
+      },
+      "swellDirection": {
+        "sg": 263.91
+      },
+      "swellHeight": {
+        "sg": 1.15
+      },
+      "swellPeriod": {
+        "sg": 11.52
+      },
+      "time": "2024-10-19T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.4
+      },
+      "waveDirection": {
+        "sg": 265.88
+      },
+      "waveHeight": {
+        "sg": 1.34
+      },
+      "wavePeriod": {
+        "sg": 11.71
+      },
+      "windDirection": {
+        "sg": 226.03
+      },
+      "windSpeed": {
+        "sg": 6.18
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.6
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.04
+      },
+      "swellDirection": {
+        "sg": 262.63
+      },
+      "swellHeight": {
+        "sg": 0.98
+      },
+      "swellPeriod": {
+        "sg": 11.29
+      },
+      "time": "2024-10-19T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.4
+      },
+      "waveDirection": {
+        "sg": 266.2
+      },
+      "waveHeight": {
+        "sg": 1.36
+      },
+      "wavePeriod": {
+        "sg": 11.67
+      },
+      "windDirection": {
+        "sg": 222.45
+      },
+      "windSpeed": {
+        "sg": 7.3
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.73
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 261.34
+      },
+      "swellHeight": {
+        "sg": 0.8
+      },
+      "swellPeriod": {
+        "sg": 11.06
+      },
+      "time": "2024-10-19T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.4
+      },
+      "waveDirection": {
+        "sg": 266.53
+      },
+      "waveHeight": {
+        "sg": 1.37
+      },
+      "wavePeriod": {
+        "sg": 11.63
+      },
+      "windDirection": {
+        "sg": 218.88
+      },
+      "windSpeed": {
+        "sg": 8.42
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.78
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.02
+      },
+      "swellDirection": {
+        "sg": 261.53
+      },
+      "swellHeight": {
+        "sg": 0.79
+      },
+      "swellPeriod": {
+        "sg": 11.01
+      },
+      "time": "2024-10-19T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 266.7
+      },
+      "waveHeight": {
+        "sg": 1.4
+      },
+      "wavePeriod": {
+        "sg": 11.53
+      },
+      "windDirection": {
+        "sg": 215.99
+      },
+      "windSpeed": {
+        "sg": 9.02
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.83
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.02
+      },
+      "swellDirection": {
+        "sg": 261.72
+      },
+      "swellHeight": {
+        "sg": 0.77
+      },
+      "swellPeriod": {
+        "sg": 10.97
+      },
+      "time": "2024-10-19T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 266.86
+      },
+      "waveHeight": {
+        "sg": 1.42
+      },
+      "wavePeriod": {
+        "sg": 11.43
+      },
+      "windDirection": {
+        "sg": 213.09
+      },
+      "windSpeed": {
+        "sg": 9.63
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.87
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 261.91
+      },
+      "swellHeight": {
+        "sg": 0.76
+      },
+      "swellPeriod": {
+        "sg": 10.92
+      },
+      "time": "2024-10-19T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 267.03
+      },
+      "waveHeight": {
+        "sg": 1.45
+      },
+      "wavePeriod": {
+        "sg": 11.33
+      },
+      "windDirection": {
+        "sg": 210.2
+      },
+      "windSpeed": {
+        "sg": 10.23
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.72
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 263.6
+      },
+      "swellHeight": {
+        "sg": 0.77
+      },
+      "swellPeriod": {
+        "sg": 10.97
+      },
+      "time": "2024-10-19T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 267.07
+      },
+      "waveHeight": {
+        "sg": 1.49
+      },
+      "wavePeriod": {
+        "sg": 11.24
+      },
+      "windDirection": {
+        "sg": 208.22
+      },
+      "windSpeed": {
+        "sg": 10.45
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.56
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.02
+      },
+      "swellDirection": {
+        "sg": 265.3
+      },
+      "swellHeight": {
+        "sg": 0.79
+      },
+      "swellPeriod": {
+        "sg": 11.02
+      },
+      "time": "2024-10-19T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 267.1
+      },
+      "waveHeight": {
+        "sg": 1.54
+      },
+      "wavePeriod": {
+        "sg": 11.16
+      },
+      "windDirection": {
+        "sg": 206.24
+      },
+      "windSpeed": {
+        "sg": 10.66
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.4
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": 0
+      },
+      "swellDirection": {
+        "sg": 266.99
+      },
+      "swellHeight": {
+        "sg": 0.8
+      },
+      "swellPeriod": {
+        "sg": 11.07
+      },
+      "time": "2024-10-19T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.39
+      },
+      "waveDirection": {
+        "sg": 267.14
+      },
+      "waveHeight": {
+        "sg": 1.58
+      },
+      "wavePeriod": {
+        "sg": 11.07
+      },
+      "windDirection": {
+        "sg": 204.26
+      },
+      "windSpeed": {
+        "sg": 10.88
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.31
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.01
+      },
+      "swellDirection": {
+        "sg": 267.09
+      },
+      "swellHeight": {
+        "sg": 0.75
+      },
+      "swellPeriod": {
+        "sg": 11.02
+      },
+      "time": "2024-10-19T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 259.31
+      },
+      "waveHeight": {
+        "sg": 1.64
+      },
+      "wavePeriod": {
+        "sg": 9.37
+      },
+      "windDirection": {
+        "sg": 204.75
+      },
+      "windSpeed": {
+        "sg": 11.13
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.22
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 267.2
+      },
+      "swellHeight": {
+        "sg": 0.7
+      },
+      "swellPeriod": {
+        "sg": 10.98
+      },
+      "time": "2024-10-19T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 251.47
+      },
+      "waveHeight": {
+        "sg": 1.69
+      },
+      "wavePeriod": {
+        "sg": 7.67
+      },
+      "windDirection": {
+        "sg": 205.25
+      },
+      "windSpeed": {
+        "sg": 11.38
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.13
+      },
+      "currentSpeed": {
+        "sg": 0.05
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 267.3
+      },
+      "swellHeight": {
+        "sg": 0.65
+      },
+      "swellPeriod": {
+        "sg": 10.93
+      },
+      "time": "2024-10-19T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 243.64
+      },
+      "waveHeight": {
+        "sg": 1.75
+      },
+      "wavePeriod": {
+        "sg": 5.97
+      },
+      "windDirection": {
+        "sg": 205.74
+      },
+      "windSpeed": {
+        "sg": 11.63
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.09
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.02
+      },
+      "swellDirection": {
+        "sg": 267.87
+      },
+      "swellHeight": {
+        "sg": 0.65
+      },
+      "swellPeriod": {
+        "sg": 10.83
+      },
+      "time": "2024-10-19T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 244.8
+      },
+      "waveHeight": {
+        "sg": 1.82
+      },
+      "wavePeriod": {
+        "sg": 6.31
+      },
+      "windDirection": {
+        "sg": 204.08
+      },
+      "windSpeed": {
+        "sg": 11.86
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.05
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.02
+      },
+      "swellDirection": {
+        "sg": 268.43
+      },
+      "swellHeight": {
+        "sg": 0.64
+      },
+      "swellPeriod": {
+        "sg": 10.74
+      },
+      "time": "2024-10-19T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 245.97
+      },
+      "waveHeight": {
+        "sg": 1.89
+      },
+      "wavePeriod": {
+        "sg": 6.66
+      },
+      "windDirection": {
+        "sg": 202.43
+      },
+      "windSpeed": {
+        "sg": 12.09
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.02
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.01
+      },
+      "swellDirection": {
+        "sg": 269
+      },
+      "swellHeight": {
+        "sg": 0.64
+      },
+      "swellPeriod": {
+        "sg": 10.64
+      },
+      "time": "2024-10-19T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 247.13
+      },
+      "waveHeight": {
+        "sg": 1.96
+      },
+      "wavePeriod": {
+        "sg": 7
+      },
+      "windDirection": {
+        "sg": 200.77
+      },
+      "windSpeed": {
+        "sg": 12.32
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.23
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.01
+      },
+      "swellDirection": {
+        "sg": 256.72
+      },
+      "swellHeight": {
+        "sg": 0.61
+      },
+      "swellPeriod": {
+        "sg": 8.94
+      },
+      "time": "2024-10-19T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 253.86
+      },
+      "waveHeight": {
+        "sg": 2
+      },
+      "wavePeriod": {
+        "sg": 8.07
+      },
+      "windDirection": {
+        "sg": 204.21
+      },
+      "windSpeed": {
+        "sg": 11.99
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.44
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.01
+      },
+      "swellDirection": {
+        "sg": 244.44
+      },
+      "swellHeight": {
+        "sg": 0.58
+      },
+      "swellPeriod": {
+        "sg": 7.25
+      },
+      "time": "2024-10-19T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.38
+      },
+      "waveDirection": {
+        "sg": 260.6
+      },
+      "waveHeight": {
+        "sg": 2.04
+      },
+      "wavePeriod": {
+        "sg": 9.14
+      },
+      "windDirection": {
+        "sg": 207.64
+      },
+      "windSpeed": {
+        "sg": 11.65
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.65
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.01
+      },
+      "swellDirection": {
+        "sg": 232.16
+      },
+      "swellHeight": {
+        "sg": 0.55
+      },
+      "swellPeriod": {
+        "sg": 5.55
+      },
+      "time": "2024-10-19T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 267.33
+      },
+      "waveHeight": {
+        "sg": 2.08
+      },
+      "wavePeriod": {
+        "sg": 10.21
+      },
+      "windDirection": {
+        "sg": 211.08
+      },
+      "windSpeed": {
+        "sg": 11.32
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.73
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.01
+      },
+      "swellDirection": {
+        "sg": 232.27
+      },
+      "swellHeight": {
+        "sg": 0.53
+      },
+      "swellPeriod": {
+        "sg": 5.49
+      },
+      "time": "2024-10-19T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 267.24
+      },
+      "waveHeight": {
+        "sg": 2.05
+      },
+      "wavePeriod": {
+        "sg": 10.3
+      },
+      "windDirection": {
+        "sg": 212.41
+      },
+      "windSpeed": {
+        "sg": 10.86
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.8
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": 0
+      },
+      "swellDirection": {
+        "sg": 232.37
+      },
+      "swellHeight": {
+        "sg": 0.52
+      },
+      "swellPeriod": {
+        "sg": 5.43
+      },
+      "time": "2024-10-19T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 267.16
+      },
+      "waveHeight": {
+        "sg": 2.01
+      },
+      "wavePeriod": {
+        "sg": 10.38
+      },
+      "windDirection": {
+        "sg": 213.73
+      },
+      "windSpeed": {
+        "sg": 10.39
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 15.88
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.01
+      },
+      "swellDirection": {
+        "sg": 232.48
+      },
+      "swellHeight": {
+        "sg": 0.5
+      },
+      "swellPeriod": {
+        "sg": 5.37
+      },
+      "time": "2024-10-19T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 267.07
+      },
+      "waveHeight": {
+        "sg": 1.98
+      },
+      "wavePeriod": {
+        "sg": 10.47
+      },
+      "windDirection": {
+        "sg": 215.06
+      },
+      "windSpeed": {
+        "sg": 9.93
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.01
+      },
+      "currentSpeed": {
+        "sg": 0.03
+      },
+      "seaLevel": {
+        "sg": -0.03
+      },
+      "swellDirection": {
+        "sg": 225.68
+      },
+      "swellHeight": {
+        "sg": 0.45
+      },
+      "swellPeriod": {
+        "sg": 5.19
+      },
+      "time": "2024-10-19T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 267.42
+      },
+      "waveHeight": {
+        "sg": 1.96
+      },
+      "wavePeriod": {
+        "sg": 10.59
+      },
+      "windDirection": {
+        "sg": 213.31
+      },
+      "windSpeed": {
+        "sg": 9.51
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.13
+      },
+      "currentSpeed": {
+        "sg": 0.04
+      },
+      "seaLevel": {
+        "sg": -0.04
+      },
+      "swellDirection": {
+        "sg": 218.89
+      },
+      "swellHeight": {
+        "sg": 0.4
+      },
+      "swellPeriod": {
+        "sg": 5.02
+      },
+      "time": "2024-10-19T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 17.37
+      },
+      "waveDirection": {
+        "sg": 267.77
+      },
+      "waveHeight": {
+        "sg": 1.94
+      },
+      "wavePeriod": {
+        "sg": 10.7
+      },
+      "windDirection": {
+        "sg": 211.55
+      },
+      "windSpeed": {
+        "sg": 9.1
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.25
+      },
+      "swellDirection": {
+        "sg": 212.09
+      },
+      "swellHeight": {
+        "sg": 0.35
+      },
+      "swellPeriod": {
+        "sg": 4.84
+      },
+      "time": "2024-10-20T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.45
+      },
+      "waveDirection": {
+        "sg": 268.12
+      },
+      "waveHeight": {
+        "sg": 1.92
+      },
+      "wavePeriod": {
+        "sg": 10.82
+      },
+      "windDirection": {
+        "sg": 209.8
+      },
+      "windSpeed": {
+        "sg": 8.68
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.29
+      },
+      "swellDirection": {
+        "sg": 212
+      },
+      "swellHeight": {
+        "sg": 0.34
+      },
+      "swellPeriod": {
+        "sg": 4.75
+      },
+      "time": "2024-10-20T01:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.44
+      },
+      "waveDirection": {
+        "sg": 267.53
+      },
+      "waveHeight": {
+        "sg": 1.89
+      },
+      "wavePeriod": {
+        "sg": 11.3
+      },
+      "windDirection": {
+        "sg": 210.73
+      },
+      "windSpeed": {
+        "sg": 8.4
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.33
+      },
+      "swellDirection": {
+        "sg": 211.92
+      },
+      "swellHeight": {
+        "sg": 0.33
+      },
+      "swellPeriod": {
+        "sg": 4.67
+      },
+      "time": "2024-10-20T02:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.43
+      },
+      "waveDirection": {
+        "sg": 266.95
+      },
+      "waveHeight": {
+        "sg": 1.87
+      },
+      "wavePeriod": {
+        "sg": 11.77
+      },
+      "windDirection": {
+        "sg": 211.65
+      },
+      "windSpeed": {
+        "sg": 8.11
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.37
+      },
+      "swellDirection": {
+        "sg": 211.83
+      },
+      "swellHeight": {
+        "sg": 0.32
+      },
+      "swellPeriod": {
+        "sg": 4.58
+      },
+      "time": "2024-10-20T03:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.41
+      },
+      "waveDirection": {
+        "sg": 266.36
+      },
+      "waveHeight": {
+        "sg": 1.84
+      },
+      "wavePeriod": {
+        "sg": 12.25
+      },
+      "windDirection": {
+        "sg": 212.58
+      },
+      "windSpeed": {
+        "sg": 7.83
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.43
+      },
+      "swellDirection": {
+        "sg": 226.5
+      },
+      "swellHeight": {
+        "sg": 0.8
+      },
+      "swellPeriod": {
+        "sg": 7.25
+      },
+      "time": "2024-10-20T04:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.43
+      },
+      "waveDirection": {
+        "sg": 265.85
+      },
+      "waveHeight": {
+        "sg": 1.81
+      },
+      "wavePeriod": {
+        "sg": 12.36
+      },
+      "windDirection": {
+        "sg": 207.95
+      },
+      "windSpeed": {
+        "sg": 7.78
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.5
+      },
+      "swellDirection": {
+        "sg": 241.16
+      },
+      "swellHeight": {
+        "sg": 1.28
+      },
+      "swellPeriod": {
+        "sg": 9.91
+      },
+      "time": "2024-10-20T05:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.44
+      },
+      "waveDirection": {
+        "sg": 265.35
+      },
+      "waveHeight": {
+        "sg": 1.79
+      },
+      "wavePeriod": {
+        "sg": 12.47
+      },
+      "windDirection": {
+        "sg": 203.33
+      },
+      "windSpeed": {
+        "sg": 7.72
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.56
+      },
+      "swellDirection": {
+        "sg": 255.83
+      },
+      "swellHeight": {
+        "sg": 1.76
+      },
+      "swellPeriod": {
+        "sg": 12.58
+      },
+      "time": "2024-10-20T06:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.45
+      },
+      "waveDirection": {
+        "sg": 264.84
+      },
+      "waveHeight": {
+        "sg": 1.76
+      },
+      "wavePeriod": {
+        "sg": 12.58
+      },
+      "windDirection": {
+        "sg": 198.7
+      },
+      "windSpeed": {
+        "sg": 7.67
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.64
+      },
+      "swellDirection": {
+        "sg": 238.2
+      },
+      "swellHeight": {
+        "sg": 1.24
+      },
+      "swellPeriod": {
+        "sg": 9.86
+      },
+      "time": "2024-10-20T07:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.44
+      },
+      "waveDirection": {
+        "sg": 264.61
+      },
+      "waveHeight": {
+        "sg": 1.75
+      },
+      "wavePeriod": {
+        "sg": 12.62
+      },
+      "windDirection": {
+        "sg": 208.69
+      },
+      "windSpeed": {
+        "sg": 7.96
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.71
+      },
+      "swellDirection": {
+        "sg": 220.58
+      },
+      "swellHeight": {
+        "sg": 0.71
+      },
+      "swellPeriod": {
+        "sg": 7.14
+      },
+      "time": "2024-10-20T08:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.43
+      },
+      "waveDirection": {
+        "sg": 264.39
+      },
+      "waveHeight": {
+        "sg": 1.73
+      },
+      "wavePeriod": {
+        "sg": 12.65
+      },
+      "windDirection": {
+        "sg": 218.67
+      },
+      "windSpeed": {
+        "sg": 8.25
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.79
+      },
+      "swellDirection": {
+        "sg": 202.95
+      },
+      "swellHeight": {
+        "sg": 0.19
+      },
+      "swellPeriod": {
+        "sg": 4.42
+      },
+      "time": "2024-10-20T09:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.42
+      },
+      "waveDirection": {
+        "sg": 264.16
+      },
+      "waveHeight": {
+        "sg": 1.72
+      },
+      "wavePeriod": {
+        "sg": 12.69
+      },
+      "windDirection": {
+        "sg": 228.66
+      },
+      "windSpeed": {
+        "sg": 8.54
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.78
+      },
+      "swellDirection": {
+        "sg": 221.59
+      },
+      "swellHeight": {
+        "sg": 0.66
+      },
+      "swellPeriod": {
+        "sg": 7.18
+      },
+      "time": "2024-10-20T10:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.44
+      },
+      "waveDirection": {
+        "sg": 263.92
+      },
+      "waveHeight": {
+        "sg": 1.68
+      },
+      "wavePeriod": {
+        "sg": 12.69
+      },
+      "windDirection": {
+        "sg": 229.17
+      },
+      "windSpeed": {
+        "sg": 7.62
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.76
+      },
+      "swellDirection": {
+        "sg": 240.22
+      },
+      "swellHeight": {
+        "sg": 1.13
+      },
+      "swellPeriod": {
+        "sg": 9.93
+      },
+      "time": "2024-10-20T11:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.46
+      },
+      "waveDirection": {
+        "sg": 263.67
+      },
+      "waveHeight": {
+        "sg": 1.64
+      },
+      "wavePeriod": {
+        "sg": 12.69
+      },
+      "windDirection": {
+        "sg": 229.69
+      },
+      "windSpeed": {
+        "sg": 6.71
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.75
+      },
+      "swellDirection": {
+        "sg": 258.86
+      },
+      "swellHeight": {
+        "sg": 1.6
+      },
+      "swellPeriod": {
+        "sg": 12.69
+      },
+      "time": "2024-10-20T12:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.48
+      },
+      "waveDirection": {
+        "sg": 263.43
+      },
+      "waveHeight": {
+        "sg": 1.6
+      },
+      "wavePeriod": {
+        "sg": 12.69
+      },
+      "windDirection": {
+        "sg": 230.2
+      },
+      "windSpeed": {
+        "sg": 5.79
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.82
+      },
+      "swellDirection": {
+        "sg": 259.06
+      },
+      "swellHeight": {
+        "sg": 1.57
+      },
+      "swellPeriod": {
+        "sg": 12.67
+      },
+      "time": "2024-10-20T13:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.49
+      },
+      "waveDirection": {
+        "sg": 263.16
+      },
+      "waveHeight": {
+        "sg": 1.57
+      },
+      "wavePeriod": {
+        "sg": 12.67
+      },
+      "windDirection": {
+        "sg": 229.54
+      },
+      "windSpeed": {
+        "sg": 5.64
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.88
+      },
+      "swellDirection": {
+        "sg": 259.25
+      },
+      "swellHeight": {
+        "sg": 1.55
+      },
+      "swellPeriod": {
+        "sg": 12.65
+      },
+      "time": "2024-10-20T14:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.5
+      },
+      "waveDirection": {
+        "sg": 262.88
+      },
+      "waveHeight": {
+        "sg": 1.55
+      },
+      "wavePeriod": {
+        "sg": 12.65
+      },
+      "windDirection": {
+        "sg": 228.87
+      },
+      "windSpeed": {
+        "sg": 5.48
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.95
+      },
+      "swellDirection": {
+        "sg": 259.45
+      },
+      "swellHeight": {
+        "sg": 1.52
+      },
+      "swellPeriod": {
+        "sg": 12.63
+      },
+      "time": "2024-10-20T15:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.52
+      },
+      "waveDirection": {
+        "sg": 262.61
+      },
+      "waveHeight": {
+        "sg": 1.52
+      },
+      "wavePeriod": {
+        "sg": 12.63
+      },
+      "windDirection": {
+        "sg": 228.21
+      },
+      "windSpeed": {
+        "sg": 5.33
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.97
+      },
+      "swellDirection": {
+        "sg": 259.6
+      },
+      "swellHeight": {
+        "sg": 1.49
+      },
+      "swellPeriod": {
+        "sg": 12.6
+      },
+      "time": "2024-10-20T16:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.46
+      },
+      "waveDirection": {
+        "sg": 262.35
+      },
+      "waveHeight": {
+        "sg": 1.49
+      },
+      "wavePeriod": {
+        "sg": 12.6
+      },
+      "windDirection": {
+        "sg": 227.97
+      },
+      "windSpeed": {
+        "sg": 5.14
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 16.99
+      },
+      "swellDirection": {
+        "sg": 259.76
+      },
+      "swellHeight": {
+        "sg": 1.46
+      },
+      "swellPeriod": {
+        "sg": 12.58
+      },
+      "time": "2024-10-20T17:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.41
+      },
+      "waveDirection": {
+        "sg": 262.08
+      },
+      "waveHeight": {
+        "sg": 1.46
+      },
+      "wavePeriod": {
+        "sg": 12.58
+      },
+      "windDirection": {
+        "sg": 227.72
+      },
+      "windSpeed": {
+        "sg": 4.96
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.01
+      },
+      "swellDirection": {
+        "sg": 259.91
+      },
+      "swellHeight": {
+        "sg": 1.43
+      },
+      "swellPeriod": {
+        "sg": 12.55
+      },
+      "time": "2024-10-20T18:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.36
+      },
+      "waveDirection": {
+        "sg": 261.82
+      },
+      "waveHeight": {
+        "sg": 1.43
+      },
+      "wavePeriod": {
+        "sg": 12.55
+      },
+      "windDirection": {
+        "sg": 227.48
+      },
+      "windSpeed": {
+        "sg": 4.77
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.02
+      },
+      "swellDirection": {
+        "sg": 259.94
+      },
+      "swellHeight": {
+        "sg": 1.41
+      },
+      "swellPeriod": {
+        "sg": 12.53
+      },
+      "time": "2024-10-20T19:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.31
+      },
+      "waveDirection": {
+        "sg": 261.59
+      },
+      "waveHeight": {
+        "sg": 1.41
+      },
+      "wavePeriod": {
+        "sg": 12.53
+      },
+      "windDirection": {
+        "sg": 221.16
+      },
+      "windSpeed": {
+        "sg": 4.8
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.03
+      },
+      "swellDirection": {
+        "sg": 259.97
+      },
+      "swellHeight": {
+        "sg": 1.39
+      },
+      "swellPeriod": {
+        "sg": 12.51
+      },
+      "time": "2024-10-20T20:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.27
+      },
+      "waveDirection": {
+        "sg": 261.36
+      },
+      "waveHeight": {
+        "sg": 1.39
+      },
+      "wavePeriod": {
+        "sg": 12.51
+      },
+      "windDirection": {
+        "sg": 214.83
+      },
+      "windSpeed": {
+        "sg": 4.84
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.04
+      },
+      "swellDirection": {
+        "sg": 260
+      },
+      "swellHeight": {
+        "sg": 1.37
+      },
+      "swellPeriod": {
+        "sg": 12.49
+      },
+      "time": "2024-10-20T21:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.23
+      },
+      "waveDirection": {
+        "sg": 261.13
+      },
+      "waveHeight": {
+        "sg": 1.37
+      },
+      "wavePeriod": {
+        "sg": 12.49
+      },
+      "windDirection": {
+        "sg": 208.51
+      },
+      "windSpeed": {
+        "sg": 4.87
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.1
+      },
+      "swellDirection": {
+        "sg": 259.78
+      },
+      "swellHeight": {
+        "sg": 1.35
+      },
+      "swellPeriod": {
+        "sg": 12.47
+      },
+      "time": "2024-10-20T22:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.27
+      },
+      "waveDirection": {
+        "sg": 260.97
+      },
+      "waveHeight": {
+        "sg": 1.35
+      },
+      "wavePeriod": {
+        "sg": 12.47
+      },
+      "windDirection": {
+        "sg": 203.42
+      },
+      "windSpeed": {
+        "sg": 5.03
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.16
+      },
+      "swellDirection": {
+        "sg": 259.57
+      },
+      "swellHeight": {
+        "sg": 1.33
+      },
+      "swellPeriod": {
+        "sg": 12.45
+      },
+      "time": "2024-10-20T23:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.31
+      },
+      "waveDirection": {
+        "sg": 260.82
+      },
+      "waveHeight": {
+        "sg": 1.33
+      },
+      "wavePeriod": {
+        "sg": 12.45
+      },
+      "windDirection": {
+        "sg": 198.32
+      },
+      "windSpeed": {
+        "sg": 5.2
+      }
+    },
+    {
+      "airTemperature": {
+        "sg": 17.22
+      },
+      "swellDirection": {
+        "sg": 259.35
+      },
+      "swellHeight": {
+        "sg": 1.31
+      },
+      "swellPeriod": {
+        "sg": 12.43
+      },
+      "time": "2024-10-21T00:00:00+00:00",
+      "waterTemperature": {
+        "sg": 16.35
+      },
+      "waveDirection": {
+        "sg": 260.66
+      },
+      "waveHeight": {
+        "sg": 1.31
+      },
+      "wavePeriod": {
+        "sg": 12.43
+      },
+      "windDirection": {
+        "sg": 193.23
+      },
+      "windSpeed": {
+        "sg": 5.36
+      }
+    }
+  ],
+  "meta": {
+    "cost": 1,
+    "dailyQuota": 10,
+    "end": "2024-10-21 00:00",
+    "lat": 46.1740867,
+    "lng": -1.3853837,
+    "params": [
+      "airTemperature",
+      "currentSpeed",
+      "seaLevel",
+      "swellDirection",
+      "swellHeight",
+      "swellPeriod",
+      "waterTemperature",
+      "waveDirection",
+      "waveHeight",
+      "wavePeriod",
+      "windDirection",
+      "windSpeed"
+    ],
+    "requestCount": 6,
+    "source": [
+      "sg"
+    ],
+    "start": "2024-10-11 00:00"
+  }
+}
