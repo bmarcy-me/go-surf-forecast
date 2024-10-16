@@ -20,8 +20,48 @@ Available query parameters :
 - start=2024-10-12T08:00:00Z (iso dateTime between 11/10/2024 and 20/10/2024 because we use static data for now)
 - duration=2 (from 1 to 7)
 
+```sh
+curl -X GET http://localhost:8080/api/spots/start=2024-10-12T08:00:00Z&duration=2
 ```
-curl http://localhost:8080/api/spots/start=2024-10-12T08:00:00Z&duration=2
+
+The response contains each surf spots and the rating by hour with a score from 0 to 5
+
+```json
+{
+    "spots": [
+        {
+            "id": "1",
+            "name": "Plage de Gros Joncs - Ile de Ré",
+            "ratings": [
+                {
+                    "rating": 2.221791666666667,
+                    "time": "2024-10-12T09:00:00Z"
+                },
+                {
+                    "rating": 2.3784027777777776,
+                    "time": "2024-10-12T10:00:00Z"
+                },
+                ...
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Pointe du Lizay - Ile de Ré",
+            "ratings": [
+                {
+                    "rating": 0.6341527777777778,
+                    "time": "2024-10-12T09:00:00Z"
+                },
+                {
+                    "rating": 0.9013472222222221,
+                    "time": "2024-10-12T10:00:00Z"
+                },
+                ...
+            ]
+        },
+        ...     
+    ]
+}
 ```
 
 ## Available surf spots
