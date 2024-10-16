@@ -12,9 +12,13 @@ func scaleWaveHeight(waveHeight float64) float64 {
 	idealWaveHeightMax := 2.0
 
 	if waveHeight < idealWaveHeightMin {
-		return (waveHeight / idealWaveHeightMin) * 2.5
+		return (waveHeight / idealWaveHeightMin) * 5
 	} else if waveHeight > idealWaveHeightMax {
-		return 5 - ((waveHeight - idealWaveHeightMax) / idealWaveHeightMax * 2.5)
+		score := 5 - ((waveHeight - idealWaveHeightMax) / idealWaveHeightMax * 5)
+		if score < 0 {
+			return 0
+		}
+		return score
 	}
 	return 5
 }
@@ -66,8 +70,8 @@ func calculateWindScore(windSpeed, windDirection float64, spot config.SpotConfig
 	// 180° is perfect offshore
 	windDirectionScore := 5 - (windDiff / 18)
 
-	// Scale wind speed: Light winds (under 10 knots) are ideal
-	if windSpeed <= 10 {
+	// Scale wind speed: Light winds (under 5 m/s) are ideal
+	if windSpeed <= 5 {
 		return windDirectionScore
 	}
 	return windDirectionScore - ((windSpeed - 5) / 2) // Penalty for high wind
