@@ -105,7 +105,24 @@ func stormglassToApi(spotId int, stormglassResponse stormglass.StormglassWeather
 	return spot
 }
 
-// getSpots is a handler function that returns score for all spots by hour
+func getBestSpotAtAnytime(spots []SurfSpot) SurfSpot {
+	var bestSpot SurfSpot
+	var highestScore float64
+
+	for _, spot := range spots {
+		for _, rating := range spot.Ratings {
+			if rating.Rating > highestScore {
+				highestScore = rating.Rating
+				bestSpot = spot
+				bestSpot.Ratings = []SurfSpotRating{rating} // Keep only the best rating
+			}
+		}
+	}
+
+	return bestSpot
+}
+
+// GetSpots is a handler function that returns score for all spots by hour
 func GetSpots(w http.ResponseWriter, r *http.Request) {
 	start, duration, err := parseQueryParams(r)
 	if err != nil {
@@ -126,4 +143,30 @@ func GetSpots(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(response)
+}
+
+// GetBestSpot is a handler function that returns the spot with the best score at any time
+func GetBestSpot(w http.ResponseWriter, r *http.Request) {
+	start, duration, err := parseQueryParams(r)
+	if err != nil {
+		http.Error(w, "Invalid request", http.StatusBadRequest)
+		return
+	}
+
+	var spots []SurfSpot
+	for _, spotConfig := range config.SpotConfigs {
+		stormglassApiResponse, err := getStaticStormglassData(spotConfig.Id, start, duration)
+		if err != nil {
+			http.Error(w, "Could not get static data", http.StatusInternalServerError)
+			return
+		}
+
+		spot := stormglassToApi(spotConfig.Id, stormglassApiResponse)
+		spots = append(spots, spot)
+	}
+
+	bestSpot := getBestSpotAtAnytime(spots)
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(bestSpot)
 }
