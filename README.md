@@ -15,7 +15,8 @@ go run cmd/main.go
 ## API endpoints
 
 ### /spots
-/spots return the forecast for surf spots around La Rochelle\
+/spots return the forecast for surf spots around La Rochelle
+
 Available query parameters :
 - start=2024-10-12T08:00:00Z (iso dateTime between 11/10/2024 and 20/10/2024 because we use static data for now)
 - duration=2 (from 1 to 7)
@@ -65,7 +66,7 @@ The response contains each surf spots and the rating by hour with a score from 0
 ```
 
 ### /spots/best
-/spots/best return the best surf spot around La Rochelle and the best time to go there in the next X days from a start date\
+/spots/best return the best surf spot around La Rochelle and the best time to go there in the next X days from a start date
 
 Available query parameters :
 - start=2024-10-17T08:00:00Z (iso dateTime between 11/10/2024 and 20/10/2024 because we use static data for now)
