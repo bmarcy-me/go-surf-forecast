@@ -104,3 +104,34 @@ func GetWeatherData(lat, lng float64, start time.Time, duration int) (*Stormglas
 
 	return &weatherPointApiResponse, nil
 }
+
+// reads a static JSON file for a spot and returns the data
+func GetStaticStormglassData(spotId int, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
+	filePath := fmt.Sprintf("../../assets/data/stormglass-data-spot-%d.json", spotId)
+	file, err := os.ReadFile(filePath)
+	if err != nil {
+		return &StormglassWeatherPointApiResponse{}, err
+	}
+
+	var stormglassResponse StormglassWeatherPointApiResponse
+	err = json.Unmarshal(file, &stormglassResponse)
+	if err != nil {
+		return &StormglassWeatherPointApiResponse{}, err
+	}
+
+	// Filter the Hours field
+	endTime := start.Add(time.Duration(duration) * 24 * time.Hour)
+	var filteredHours []Hour
+	for _, hour := range stormglassResponse.Hours {
+		hourTime := hour.Time
+		if hourTime.After(start) && hourTime.Before(endTime) {
+			// Keep only daylights hours
+			if hourTime.Hour() > 5 && hourTime.Hour() <= 22 {
+				filteredHours = append(filteredHours, hour)
+			}
+		}
+	}
+
+	stormglassResponse.Hours = filteredHours
+	return &stormglassResponse, nil
+}

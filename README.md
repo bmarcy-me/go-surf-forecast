@@ -73,7 +73,7 @@ Available query parameters :
 - duration=4 (from 1 to 7)
 
 ```sh
-curl -X GET http://localhost:8080/api/spots/start=2024-10-17T08:00:00Z&duration=4
+curl -X GET http://localhost:8080/api/spots/best/start=2024-10-17T08:00:00Z&duration=4
 ```
 
 The response contains only one surf spot. The one with the best rating and the best time to go there.
@@ -103,7 +103,7 @@ The response contains only one surf spot. The one with the best rating and the b
 
 
 ## To do list
-- [ x ] api endpoint returning the best surf spot and the best time to go there
+- [x] api endpoint returning the best surf spot and the best time to go there
 - [ ] querying stormglass at startup and store weather data in a db
 - [ ] using the db instead of static json files
 - [ ] docker for api server an db
