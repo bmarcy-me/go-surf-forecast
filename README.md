@@ -33,6 +33,9 @@ spots:
     direction : 260
 ```
 
+> [!WARNING]
+> Stormglass' free plan allows 10 requests per day. If you are using the free plan, configure a maximum of 10 spots.
+
 ## Start
 In the root directory of the project, run the following commands:
 
