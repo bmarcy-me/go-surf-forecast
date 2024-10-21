@@ -2,7 +2,7 @@
 
 Define your favorite surf spots.\
 Get the surf spots condition for next 7 days based on stormglass API.\
-Backend implementation in Go.\
+Backend implementation in Go.
 
 **This project is a work in progress.**
 
