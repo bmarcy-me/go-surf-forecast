@@ -50,7 +50,7 @@ type Meta struct {
 }
 
 // call stormglass api endpoint v2/weather/point
-func GetWeatherData(lat, lng float64, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
+func GetStormglassWeatherDataFromApi(spot config.SpotConfig, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
 	stormglassApiKey := os.Getenv("STORMGLASS_API_KEY")
 	if stormglassApiKey == "" {
 		return nil, fmt.Errorf("STORMGLASS_API_KEY environment variable is not set")
@@ -63,8 +63,8 @@ func GetWeatherData(lat, lng float64, start time.Time, duration int) (*Stormglas
 	baseURL.Path += "/weather/point"
 
 	params := url.Values{}
-	params.Add("lat", fmt.Sprintf("%f", lat))
-	params.Add("lng", fmt.Sprintf("%f", lng))
+	params.Add("lat", spot.Lat)
+	params.Add("lng", spot.Long)
 	params.Add("params", "airTemperature,currentSpeed,seaLevel,swellDirection,swellHeight,swellPeriod,waterTemperature,waveDirection,waveHeight,wavePeriod,windDirection,windSpeed")
 	params.Add("start", fmt.Sprintf("%d", start.Unix()))
 	end := start.Add(time.Duration(duration) * 24 * time.Hour).Unix()
@@ -72,7 +72,7 @@ func GetWeatherData(lat, lng float64, start time.Time, duration int) (*Stormglas
 	params.Add("source", "sg")
 	baseURL.RawQuery = params.Encode()
 
-	log.Default().Printf("Calling stormglass API %s", baseURL.Host)
+	log.Default().Printf("Calling stormglass API for spot %d", spot.Id)
 
 	req, err := http.NewRequest("GET", baseURL.String(), nil)
 	if err != nil {
@@ -103,4 +103,35 @@ func GetWeatherData(lat, lng float64, start time.Time, duration int) (*Stormglas
 	}
 
 	return &weatherPointApiResponse, nil
+}
+
+// reads a static JSON file for a spot and returns the data
+func GetStormglassWeatherDataFromFile(spot config.SpotConfig, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
+	filePath := fmt.Sprintf("./assets/data/stormglass-data-spot-%d.json", spot.Id)
+	file, err := os.ReadFile(filePath)
+	if err != nil {
+		return &StormglassWeatherPointApiResponse{}, err
+	}
+
+	var stormglassResponse StormglassWeatherPointApiResponse
+	err = json.Unmarshal(file, &stormglassResponse)
+	if err != nil {
+		return &StormglassWeatherPointApiResponse{}, err
+	}
+
+	// Filter the Hours field
+	endTime := start.Add(time.Duration(duration) * 24 * time.Hour)
+	var filteredHours []Hour
+	for _, hour := range stormglassResponse.Hours {
+		hourTime := hour.Time
+		if hourTime.After(start) && hourTime.Before(endTime) {
+			// Keep only daylights hours
+			if hourTime.Hour() > 5 && hourTime.Hour() <= 22 {
+				filteredHours = append(filteredHours, hour)
+			}
+		}
+	}
+
+	stormglassResponse.Hours = filteredHours
+	return &stormglassResponse, nil
 }
