@@ -1,12 +1,37 @@
-# LR GO SURF FORECAST
+# GO SURF FORECAST
 
-Find the best surf spots for next 7 days around La Rochelle, France.\
+Define your favorite surf spots.\
+Get the surf spots condition for next 7 days based on stormglass API.\
 Backend implementation in Go.\
-This project is a work in progress.
+
+**This project is a work in progress.**
 
 ## Prerequisites
 - Go 1.23 installed
 - Docker installed
+
+## Surf spots configuration
+Example with surf spots around La Rochelle, France.
+You need to provide an id, a name, gps coordinates and the direction (angle) for the spot.
+
+```yaml
+spots:
+  - id: 1
+    name : "Plage de Gros Joncs - Ile de Ré"
+    latitude: 46.1740867
+    longitude: -1.3853837
+    direction : 220
+  - id: 2
+    name : "Pointe du Lizay - Ile de Ré"
+    latitude: 46.257935
+    longitude: -1.518474
+    direction : 320
+  - id: 3
+    name : "Plage de Vert Bois - Ile d'Oléron"
+    latitude: 45.874214
+    longitude: -1.263475
+    direction : 260
+```
 
 ## Start
 In the root directory of the project, run the following commands:
@@ -20,13 +45,13 @@ export WEATHER_DATA_SOURCE=file # other possible value is stormglass but you wil
 export STORMGLASS_API_KEY=xxx-yyy-zzz
 
 cd docker
-docker compose up --build
+docker compose up --build -d
 ```
 
 ## API endpoints
 
 ### /spots
-/spots return the forecast for surf spots around La Rochelle
+/spots return the forecast for surf spots
 
 Available query parameters :
 - start=2024-10-12T08:00:00Z (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
@@ -42,7 +67,7 @@ The response contains each surf spots and the rating by hour with a score from 0
 {
     "spots": [
         {
-            "id": "1",
+            "id": 1,
             "name": "Plage de Gros Joncs - Ile de Ré",
             "ratings": [
                 {
@@ -57,7 +82,7 @@ The response contains each surf spots and the rating by hour with a score from 0
             ]
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "Pointe du Lizay - Ile de Ré",
             "ratings": [
                 {
@@ -77,7 +102,7 @@ The response contains each surf spots and the rating by hour with a score from 0
 ```
 
 ### /spots/best
-/spots/best return the best surf spot around La Rochelle and the best time to go there in the next X days from a start date
+/spots/best return the best surf spot and the best time to go there in the next X days from a start date
 
 Available query parameters :
 - start=2024-10-17T08:00:00Z (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
@@ -91,7 +116,7 @@ The response contains only one surf spot. The one with the best rating and the b
 
 ```json
 {
-    "id": "1",
+    "id": 1,
     "name": "Plage de Gros Joncs - Ile de Ré",
     "ratings": [
         {
@@ -102,24 +127,22 @@ The response contains only one surf spot. The one with the best rating and the b
 }
 ```
 
-## Available surf spots
-3 spots available for now 
-
-|  Id   | Name                              |
-| ----- | --------------------------------- |
-| 1     | Plage de Gros Joncs - Ile de Ré   |
-| 2     | Pointe du Lizay - Ile de Ré       |
-| 3     | Plage de Vert Bois - Ile d'Oléron |
-
-
 
 ## To do list
 - [x] api endpoint returning the best surf spot and the best time to go there
 - [x] querying stormglass at startup and store weather data in a db
 - [ ] using the db instead of static json files
 - [x] docker for api server an db
-- [ ] add surf spots around La Rochelle
 - [ ] add tests
 
 ## Stormglass
 If you need a stormglass api key, create a free account on https://stormglass.io/
+
+
+## Clean
+To purge your docker env, in the root directory of the project, run the following commands:
+
+```sh
+cd docker
+docker compose down -v --rmi all
+```
