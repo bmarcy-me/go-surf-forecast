@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"lr-surf-forecast/config"
+	"go-surf-forecast/config"
 )
 
 type StormglassWeatherPointApiResponse struct {
