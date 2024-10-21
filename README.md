@@ -4,14 +4,15 @@ Define your favorite surf spots.\
 Get the surf spot conditions for next 7 days based on the [Stormglass API](https://docs.stormglass.io/#/weather).\
 Backend implementation in Go.
 
-> [!NOTE] 
+> [!IMPORTANT] 
 > This project is a work in progress.
 
 ## Prerequisites
 - Docker installed
 - A stormglass api key (create a free account at https://stormglass.io/)
 > [!NOTE] 
-> This project contains static data files for testing purposes, so you can start it without a Stormglass API key. However, you will be limited to the current list of spots and a defined time period from October 12, 2024, to October 24, 2024."
+> This project contains static data files for testing purposes, so you can start it without a Stormglass API key. 
+> However, you will be limited to the current list of spots and a defined time period from October 12, 2024, to October 24, 2024."
 
 ## Surf spots configuration
 Example of surf spots around La Rochelle, France.\
