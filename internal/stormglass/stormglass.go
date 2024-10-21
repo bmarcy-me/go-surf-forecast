@@ -52,19 +52,20 @@ type Meta struct {
 // call stormglass api endpoint v2/weather/point
 func GetStormglassWeatherDataFromApi(spot config.SpotConfig, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
 	stormglassApiKey := os.Getenv("STORMGLASS_API_KEY")
+	cfg := config.GetConfig()
 	if stormglassApiKey == "" {
 		return nil, fmt.Errorf("STORMGLASS_API_KEY environment variable is not set")
 	}
 
-	baseURL, err := url.Parse(config.StormglassApiEndpoint)
+	baseURL, err := url.Parse(cfg.Stormglass.Url)
 	if err != nil {
 		return nil, err
 	}
 	baseURL.Path += "/weather/point"
 
 	params := url.Values{}
-	params.Add("lat", spot.Lat)
-	params.Add("lng", spot.Long)
+	params.Add("lat", fmt.Sprintf("%f", spot.Lat))
+	params.Add("lng", fmt.Sprintf("%f", spot.Long))
 	params.Add("params", "airTemperature,currentSpeed,seaLevel,swellDirection,swellHeight,swellPeriod,waterTemperature,waveDirection,waveHeight,wavePeriod,windDirection,windSpeed")
 	params.Add("start", fmt.Sprintf("%d", start.Unix()))
 	end := start.Add(time.Duration(duration) * 24 * time.Hour).Unix()
@@ -107,7 +108,7 @@ func GetStormglassWeatherDataFromApi(spot config.SpotConfig, start time.Time, du
 
 // reads a static JSON file for a spot and returns the data
 func GetStormglassWeatherDataFromFile(spot config.SpotConfig, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
-	filePath := fmt.Sprintf("./assets/data/stormglass-data-spot-%d.json", spot.Id)
+	filePath := fmt.Sprintf("assets/data/stormglass-data-spot-%d.json", spot.Id)
 	file, err := os.ReadFile(filePath)
 	if err != nil {
 		return &StormglassWeatherPointApiResponse{}, err

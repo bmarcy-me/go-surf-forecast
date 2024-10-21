@@ -16,7 +16,7 @@ type Response struct {
 }
 
 type SurfSpot struct {
-	Id      string           `json:"id"`
+	Id      int              `json:"id"`
 	Name    string           `json:"name"`
 	Ratings []SurfSpotRating `json:"ratings"`
 }
@@ -58,13 +58,15 @@ func parseQueryParams(r *http.Request) (time.Time, int, error) {
 
 // map stormglass response to API response
 func stormglassToApi(spotId int, stormglassResponse stormglass.StormglassWeatherPointApiResponse) SurfSpot {
+	cfg := config.GetConfig()
+	spotConfig := cfg.Spots[spotId-1]
 	spot := SurfSpot{
-		Id:   strconv.Itoa(spotId),
-		Name: config.SpotConfigs[spotId-1].Name,
+		Id:   spotId,
+		Name: spotConfig.Name,
 	}
 	for _, hour := range stormglassResponse.Hours {
 		rating := SurfSpotRating{
-			Rating: scoring.CalculateScoreSpotByHour(config.SpotConfigs[spotId-1], hour),
+			Rating: scoring.CalculateScoreSpotByHour(spotConfig, hour),
 			Time:   hour.Time,
 		}
 		spot.Ratings = append(spot.Ratings, rating)
@@ -97,8 +99,9 @@ func GetSpots(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Invalid request", http.StatusBadRequest)
 		return
 	}
+	cfg := config.GetConfig()
 	var response Response
-	for _, spot := range config.SpotConfigs {
+	for _, spot := range cfg.Spots {
 		stormglassApiResponse, err := stormglass.GetStormglassWeatherDataFromFile(spot, start, duration)
 		if err != nil {
 			http.Error(w, "Could not get static data", http.StatusInternalServerError)
@@ -122,7 +125,8 @@ func GetBestSpot(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var spots []SurfSpot
-	for _, spotConfig := range config.SpotConfigs {
+	cfg := config.GetConfig()
+	for _, spotConfig := range cfg.Spots {
 		stormglassApiResponse, err := stormglass.GetStormglassWeatherDataFromFile(spotConfig, start, duration)
 		if err != nil {
 			http.Error(w, "Could not get static data", http.StatusInternalServerError)
