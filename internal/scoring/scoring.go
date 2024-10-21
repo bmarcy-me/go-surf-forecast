@@ -1,8 +1,8 @@
 package scoring
 
 import (
-	"lr-surf-forecast/config"
-	"lr-surf-forecast/internal/stormglass"
+	"go-surf-forecast/config"
+	"go-surf-forecast/internal/stormglass"
 	"math"
 )
 

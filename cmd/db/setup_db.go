@@ -3,9 +3,9 @@ package main
 import (
 	"database/sql"
 	"fmt"
+	"go-surf-forecast/config"
+	"go-surf-forecast/internal/stormglass"
 	"log"
-	"lr-surf-forecast/config"
-	"lr-surf-forecast/internal/stormglass"
 	"os"
 	"time"
 

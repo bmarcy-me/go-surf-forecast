@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"lr-surf-forecast/api/handlers"
-	"lr-surf-forecast/config"
+	"go-surf-forecast/api/handlers"
+	"go-surf-forecast/config"
 )
 
 func main() {

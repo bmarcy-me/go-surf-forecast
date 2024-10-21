@@ -1,4 +1,4 @@
-module lr-surf-forecast
+module go-surf-forecast
 
 go 1.23.2
 

@@ -3,9 +3,9 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"lr-surf-forecast/config"
-	"lr-surf-forecast/internal/scoring"
-	"lr-surf-forecast/internal/stormglass"
+	"go-surf-forecast/config"
+	"go-surf-forecast/internal/scoring"
+	"go-surf-forecast/internal/stormglass"
 	"net/http"
 	"strconv"
 	"time"
