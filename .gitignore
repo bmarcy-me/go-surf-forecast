@@ -20,7 +20,11 @@ go.work.sum
 
 # env file
 .env
+!/docker/.env
 
 # ide directories
 .vscode/
 .idea/
+
+# notes
+notes/

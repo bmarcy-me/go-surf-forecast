@@ -99,7 +99,7 @@ func GetSpots(w http.ResponseWriter, r *http.Request) {
 	}
 	var response Response
 	for _, spot := range config.SpotConfigs {
-		stormglassApiResponse, err := stormglass.GetStaticStormglassData(spot.Id, start, duration)
+		stormglassApiResponse, err := stormglass.GetStormglassWeatherDataFromFile(spot, start, duration)
 		if err != nil {
 			http.Error(w, "Could not get static data", http.StatusInternalServerError)
 			return
@@ -123,7 +123,7 @@ func GetBestSpot(w http.ResponseWriter, r *http.Request) {
 
 	var spots []SurfSpot
 	for _, spotConfig := range config.SpotConfigs {
-		stormglassApiResponse, err := stormglass.GetStaticStormglassData(spotConfig.Id, start, duration)
+		stormglassApiResponse, err := stormglass.GetStormglassWeatherDataFromFile(spotConfig, start, duration)
 		if err != nil {
 			http.Error(w, "Could not get static data", http.StatusInternalServerError)
 			return
