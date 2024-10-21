@@ -7,7 +7,6 @@ import (
 	"lr-surf-forecast/config"
 	"lr-surf-forecast/internal/stormglass"
 	"os"
-	"strconv"
 	"time"
 
 	_ "github.com/lib/pq"
@@ -27,19 +26,13 @@ func initSpotTable(db *sql.DB) {
 		log.Println("Spot table created successfully")
 	}
 
-	for _, spot := range config.SpotConfigs {
-		lat, err := strconv.ParseFloat(spot.Lat, 64)
-		if err != nil {
-			log.Fatal(err)
-		}
-		long, err := strconv.ParseFloat(spot.Long, 64)
-		if err != nil {
-			log.Fatal(err)
-		}
+	cfg := config.GetConfig()
+
+	for _, spot := range cfg.Spots {
 		_, err = db.Exec(`INSERT INTO spot (spot_id, spot_name, latitude, longitude) 
 			VALUES ($1, $2, $3, $4)
 			ON CONFLICT (spot_id) DO NOTHING`,
-			spot.Id, spot.Name, lat, long)
+			spot.Id, spot.Name, spot.Lat, spot.Long)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -74,9 +67,11 @@ func initWeatherDataTable(db *sql.DB, dataSource string) {
 		log.Println("Weather table created successfully")
 	}
 
+	cfg := config.GetConfig()
+
 	var weatherData *stormglass.StormglassWeatherPointApiResponse
 
-	for _, spot := range config.SpotConfigs {
+	for _, spot := range cfg.Spots {
 
 		duration := 7
 		if dataSource == "stormglass" {
@@ -112,6 +107,12 @@ func initWeatherDataTable(db *sql.DB, dataSource string) {
 }
 
 func main() {
+	cfg, err := config.LoadConfig("config/config.yaml")
+	if err != nil {
+		log.Fatalf("Error loading config: %v", err)
+	}
+	config.SetConfig(cfg)
+
 	log.Println("Starting database setup...")
 	postgresHost := os.Getenv("POSTGRES_HOST")
 	postgresUser := os.Getenv("POSTGRES_USER")

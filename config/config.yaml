@@ -1,0 +1,18 @@
+spots:
+  - id: 1
+    name : "Plage de Gros Joncs - Ile de Ré"
+    latitude: 46.1740867
+    longitude: -1.3853837
+    direction : 220
+  - id: 2
+    name : "Pointe du Lizay - Ile de Ré"
+    latitude: 46.257935
+    longitude: -1.518474
+    direction : 320
+  - id: 3
+    name : "Plage de Vert Bois - Ile d'Oléron"
+    latitude: 45.874214
+    longitude: -1.263475
+    direction : 260
+stormglass:
+  url: https://api.stormglass.io/v2
