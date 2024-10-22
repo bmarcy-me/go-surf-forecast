@@ -16,7 +16,7 @@ Backend implementation in Go.
 
 ## Surf spots configuration
 Example of surf spots around La Rochelle, France.\
-You need to provide an ID, a name, GPS coordinates, and the direction (angle relative to the coastline) for each spot in : [config/config.yaml](config/config.yaml) file.
+You need to provide an ID, a name, GPS coordinates, and the direction (angle relative to the coastline) for each spot in the [config/config.yaml](config/config.yaml) file.
 
 ```yaml
 spots:
