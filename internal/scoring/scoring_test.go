@@ -2,7 +2,7 @@ package scoring
 
 import (
 	"go-surf-forecast/config"
-	"go-surf-forecast/internal/stormglass"
+	"go-surf-forecast/internal/models"
 	"testing"
 )
 
@@ -61,36 +61,36 @@ func TestScaleSwellDirection(t *testing.T) {
 func TestCalculateScoreSpotByHour(t *testing.T) {
 	testCases := []struct {
 		spot     config.SpotConfig
-		hour     stormglass.Hour
+		weather  models.Weather
 		label    string
 		expected float64
 	}{
 		{
 			spot: config.SpotConfig{Direction: 90},
-			hour: stormglass.Hour{
-				WaveHeight:       stormglass.Source{Sg: 1.0},
-				SwellHeight:      stormglass.Source{Sg: 1.0},
-				SwellPeriod:      stormglass.Source{Sg: 10.0},
-				SwellDirection:   stormglass.Source{Sg: 90.0},
-				WindSpeed:        stormglass.Source{Sg: 4.0},
-				WindDirection:    stormglass.Source{Sg: 90.0},
-				WaterTemperature: stormglass.Source{Sg: 22.0},
-				AirTemperature:   stormglass.Source{Sg: 22.0},
+			weather: models.Weather{
+				WaveHeight:       1.0,
+				SwellHeight:      1.0,
+				SwellPeriod:      10.0,
+				SwellDirection:   90.0,
+				WindSpeed:        4.0,
+				WindDirection:    90.0,
+				WaterTemperature: 22.0,
+				AirTemperature:   22.0,
 			},
 			label:    "perfect conditions",
 			expected: 5.0,
 		},
 		{
 			spot: config.SpotConfig{Direction: 0},
-			hour: stormglass.Hour{
-				WaveHeight:       stormglass.Source{Sg: 0.0},
-				SwellHeight:      stormglass.Source{Sg: 2.0},
-				SwellPeriod:      stormglass.Source{Sg: 8.0},
-				SwellDirection:   stormglass.Source{Sg: 90.0},
-				WindSpeed:        stormglass.Source{Sg: 15.0},
-				WindDirection:    stormglass.Source{Sg: 270.0},
-				WaterTemperature: stormglass.Source{Sg: 20.0},
-				AirTemperature:   stormglass.Source{Sg: 18.0},
+			weather: models.Weather{
+				WaveHeight:       0.0,
+				SwellHeight:      2.0,
+				SwellPeriod:      8.0,
+				SwellDirection:   90.0,
+				WindSpeed:        15.0,
+				WindDirection:    270.0,
+				WaterTemperature: 20.0,
+				AirTemperature:   18.0,
 			},
 			label:    "no wave",
 			expected: 0.0,
@@ -98,9 +98,9 @@ func TestCalculateScoreSpotByHour(t *testing.T) {
 	}
 
 	for _, tc := range testCases {
-		t.Run("", func(t *testing.T) {
+		t.Run(tc.label, func(t *testing.T) {
 			t.Logf("Testing global score by hour for %s", tc.label)
-			result := CalculateScoreSpotByHour(tc.spot, tc.hour)
+			result := CalculateScoreSpotByHour(tc.spot, tc.weather)
 			if result != tc.expected {
 				t.Errorf("Expected %f, got %f", tc.expected, result)
 			}

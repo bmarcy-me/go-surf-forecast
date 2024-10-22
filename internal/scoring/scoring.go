@@ -2,7 +2,7 @@ package scoring
 
 import (
 	"go-surf-forecast/config"
-	"go-surf-forecast/internal/stormglass"
+	"go-surf-forecast/internal/models"
 	"math"
 )
 
@@ -86,14 +86,14 @@ func calculateComfort(waterTemperature, airTemperature float64) float64 {
 	return comfortScore
 }
 
-func CalculateScoreSpotByHour(spot config.SpotConfig, hour stormglass.Hour) float64 {
-	if hour.WaveHeight.Sg == 0.0 {
+func CalculateScoreSpotByHour(spot config.SpotConfig, weatherModel models.Weather) float64 {
+	if weatherModel.WaveHeight == 0.0 {
 		return 0.0
 	}
-	waveScore := scaleWaveHeight(hour.WaveHeight.Sg)
-	swellScore := calculateSwellScore(hour.SwellHeight.Sg, hour.SwellPeriod.Sg, hour.SwellDirection.Sg, spot)
-	windScore := calculateWindScore(hour.WindSpeed.Sg, hour.WindDirection.Sg, spot)
-	comfortScore := calculateComfort(hour.WaterTemperature.Sg, hour.AirTemperature.Sg)
+	waveScore := scaleWaveHeight(weatherModel.WaveHeight)
+	swellScore := calculateSwellScore(weatherModel.SwellHeight, weatherModel.SwellPeriod, weatherModel.SwellDirection, spot)
+	windScore := calculateWindScore(weatherModel.WindSpeed, weatherModel.WindDirection, spot)
+	comfortScore := calculateComfort(weatherModel.WaterTemperature, weatherModel.AirTemperature)
 
 	finalScore := (0.5 * waveScore) + (0.25 * swellScore) + (0.2 * windScore) + (0.05 * comfortScore)
 	return finalScore

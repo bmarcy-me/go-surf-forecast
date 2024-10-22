@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"go-surf-forecast/config"
+	"go-surf-forecast/internal/models"
 	"go-surf-forecast/internal/scoring"
-	"go-surf-forecast/internal/stormglass"
 	"net/http"
 	"strconv"
 	"time"
@@ -25,6 +25,8 @@ type SurfSpotRating struct {
 	Rating float64   `json:"rating"`
 	Time   time.Time `json:"time"`
 }
+
+var WeatherModel models.WeatherModel
 
 func parseQueryParams(r *http.Request) (time.Time, int, error) {
 	query := r.URL.Query()
@@ -56,18 +58,16 @@ func parseQueryParams(r *http.Request) (time.Time, int, error) {
 	return start, duration, nil
 }
 
-// map stormglass response to API response
-func stormglassToApi(spotId int, stormglassResponse stormglass.StormglassWeatherPointApiResponse) SurfSpot {
-	cfg := config.GetConfig()
-	spotConfig := cfg.Spots[spotId-1]
+// map weather data from database to API response
+func weatherDataToApi(spotConfig config.SpotConfig, weatherData []models.Weather) SurfSpot {
 	spot := SurfSpot{
-		Id:   spotId,
+		Id:   spotConfig.Id,
 		Name: spotConfig.Name,
 	}
-	for _, hour := range stormglassResponse.Hours {
+	for _, weather := range weatherData {
 		rating := SurfSpotRating{
-			Rating: scoring.CalculateScoreSpotByHour(spotConfig, hour),
-			Time:   hour.Time,
+			Rating: scoring.CalculateScoreSpotByHour(spotConfig, weather),
+			Time:   weather.Time,
 		}
 		spot.Ratings = append(spot.Ratings, rating)
 	}
@@ -102,13 +102,13 @@ func GetSpots(w http.ResponseWriter, r *http.Request) {
 	cfg := config.GetConfig()
 	var response Response
 	for _, spot := range cfg.Spots {
-		stormglassApiResponse, err := stormglass.GetStormglassWeatherDataFromFile(spot, start, duration)
+		weatherData, err := WeatherModel.GetWeatherDataFromDb(spot.Id, start, duration)
 		if err != nil {
 			http.Error(w, "Could not get static data", http.StatusInternalServerError)
 			return
 		}
 
-		spotData := stormglassToApi(spot.Id, *stormglassApiResponse)
+		spotData := weatherDataToApi(spot, weatherData)
 		response.Spots = append(response.Spots, spotData)
 	}
 
@@ -127,13 +127,13 @@ func GetBestSpot(w http.ResponseWriter, r *http.Request) {
 	var spots []SurfSpot
 	cfg := config.GetConfig()
 	for _, spotConfig := range cfg.Spots {
-		stormglassApiResponse, err := stormglass.GetStormglassWeatherDataFromFile(spotConfig, start, duration)
+		weatherData, err := WeatherModel.GetWeatherDataFromDb(spotConfig.Id, start, duration)
 		if err != nil {
 			http.Error(w, "Could not get static data", http.StatusInternalServerError)
 			return
 		}
 
-		spot := stormglassToApi(spotConfig.Id, *stormglassApiResponse)
+		spot := weatherDataToApi(spotConfig, weatherData)
 		spots = append(spots, spot)
 	}
 

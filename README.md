@@ -1,18 +1,22 @@
 # GO SURF FORECAST
 
 Define your favorite surf spots.\
-Get the surf spots condition for next 7 days based on stormglass API.\
+Get the surf spot conditions for next 7 days based on the [Stormglass API](https://docs.stormglass.io/#/weather).\
 Backend implementation in Go.
 
-**This project is a work in progress.**
+> [!IMPORTANT] 
+> This project is a work in progress.
 
 ## Prerequisites
-- Go 1.23 installed
 - Docker installed
+- A Stormglass Api key (create a free account at https://stormglass.io/)
+> [!NOTE] 
+> This project contains static data files for testing purposes, so you can start it without a Stormglass API key. 
+> However, you will be limited to the current list of spots and a defined time period from October 11, 2024, to October 20, 2024."
 
 ## Surf spots configuration
-Example with surf spots around La Rochelle, France.
-You need to provide an id, a name, gps coordinates and the direction (angle) for the spot.
+Example of surf spots around La Rochelle, France.\
+You need to provide an ID, a name, GPS coordinates, and the direction (angle relative to the coastline) for each spot in the [config/config.yaml](config/config.yaml) file.
 
 ```yaml
 spots:
@@ -33,6 +37,9 @@ spots:
     direction : 260
 ```
 
+> [!WARNING]
+> Stormglass' free plan allows 10 requests per day. If you are using the free plan, configure a maximum of 10 spots.
+
 ## Start
 In the root directory of the project, run the following commands:
 
@@ -51,17 +58,17 @@ docker compose up --build -d
 ## API endpoints
 
 ### /spots
-/spots return the forecast for surf spots
+/spots returns the forecast for surf spots
 
 Available query parameters :
-- start=2024-10-12T08:00:00Z (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
-- duration=2 (from 1 to 7)
+- `start=2024-10-12T08:00:00Z` (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
+- `duration=2` (from 1 to 7)
 
 ```sh
-curl -X GET http://localhost:8080/api/spots/start=2024-10-12T08:00:00Z&duration=2
+curl -X GET "http://localhost:8080/api/spots/start=2024-10-12T08:00:00Z&duration=2"
 ```
 
-The response contains each surf spots and the rating by hour with a score from 0 to 5
+The response contains each surf spot and the rating by hour, with a score from 0 to 5
 
 ```json
 {
@@ -77,8 +84,7 @@ The response contains each surf spots and the rating by hour with a score from 0
                 {
                     "rating": 2.3784027777777776,
                     "time": "2024-10-12T10:00:00Z"
-                },
-                ...
+                }
             ]
         },
         {
@@ -92,27 +98,25 @@ The response contains each surf spots and the rating by hour with a score from 0
                 {
                     "rating": 0.9013472222222221,
                     "time": "2024-10-12T10:00:00Z"
-                },
-                ...
+                }
             ]
-        },
-        ...     
+        }     
     ]
 }
 ```
 
 ### /spots/best
-/spots/best return the best surf spot and the best time to go there in the next X days from a start date
+/spots/best returns the best surf spot and the optimal time to go there in the next X days from a start date
 
 Available query parameters :
-- start=2024-10-17T08:00:00Z (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
-- duration=4 (from 1 to 7)
+- `start=2024-10-17T08:00:00Z` (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
+- `duration=4` (from 1 to 7)
 
 ```sh
-curl -X GET http://localhost:8080/api/spots/best/start=2024-10-17T08:00:00Z&duration=4
+curl -X GET "http://localhost:8080/api/spots/best/start=2024-10-17T08:00:00Z&duration=4"
 ```
 
-The response contains only one surf spot. The one with the best rating and the best time to go there.
+The response contains only one surf spot: The one with the best rating and the best time to go there.
 
 ```json
 {
@@ -129,18 +133,15 @@ The response contains only one surf spot. The one with the best rating and the b
 
 
 ## To do list
-- [x] api endpoint returning the best surf spot and the best time to go there
-- [x] querying stormglass at startup and store weather data in a db
-- [ ] using the db instead of static json files
-- [x] docker for api server an db
+- [x] API endpoint returning the best surf spot and the best time to go there
+- [x] querying stormglass at startup and storing weather data in a database
+- [ ] using the database instead of static json files
+- [x] docker for API server and database
 - [ ] add tests
-
-## Stormglass
-If you need a stormglass api key, create a free account on https://stormglass.io/
 
 
 ## Clean
-To purge your docker env, in the root directory of the project, run the following commands:
+To purge your docker environment, in the root directory of the project, run the following commands:
 
 ```sh
 cd docker
