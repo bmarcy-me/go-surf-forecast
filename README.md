@@ -42,9 +42,9 @@ spots:
 
 
 ## Stormglass configuration
-If you want to use the included static data files (for testing purposes), no additional configuration is needed. You're all set to run the project with the default settings. Jump directly to the [Start section](##start)
+If you want to use the included static data files (for testing purposes), no additional configuration is needed. You're all set to run the project with the default settings. Jump directly to the [Start section](#start)
 
-If you want to use the Stormglass API, configure your API key in the file [config/config.yaml](config/config.yaml) as shown below:\
+If you want to use the Stormglass API, configure your API key in the file [config/config.yaml](config/config.yaml) as shown below:
 ```yaml
 stormglass:
   url: https://api.stormglass.io/v2
