@@ -16,3 +16,6 @@ spots:
     direction : 260
 stormglass:
   url: https://api.stormglass.io/v2
+  api_key: xxx-yyy-zzz # replace with your API key
+weather_data: 
+  source: file # replace by stormglass to init weather data from the API

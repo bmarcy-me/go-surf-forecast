@@ -16,12 +16,18 @@ type SpotConfig struct {
 }
 
 type StormglassConfig struct {
-	Url string `yaml:"url"`
+	Url    string `yaml:"url"`
+	ApiKey string `yaml:"api_key"`
+}
+
+type WeatherDataConfig struct {
+	Source string `yaml:"source"`
 }
 
 type Config struct {
-	Spots      []SpotConfig     `yaml:"spots"`
-	Stormglass StormglassConfig `yaml:"stormglass"`
+	Spots       []SpotConfig      `yaml:"spots"`
+	Stormglass  StormglassConfig  `yaml:"stormglass"`
+	WeatherData WeatherDataConfig `yaml:"weather_data"`
 }
 
 var (

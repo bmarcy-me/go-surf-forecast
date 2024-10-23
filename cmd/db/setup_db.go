@@ -118,7 +118,7 @@ func main() {
 	postgresUser := os.Getenv("POSTGRES_USER")
 	postgresPassword := os.Getenv("POSTGRES_PASSWORD")
 	postgresDb := os.Getenv("POSTGRES_DB")
-	weatherDataSource := os.Getenv("WEATHER_DATA_SOURCE")
+	weatherDataSource := cfg.WeatherData.Source
 	if weatherDataSource == "" {
 		weatherDataSource = "file"
 	}
