@@ -40,17 +40,24 @@ spots:
 > [!WARNING]
 > Stormglass' free plan allows 10 requests per day. If you are using the free plan, configure a maximum of 10 spots.
 
+
+## Stormglass configuration
+If you want to use the included static data files (for testing purposes), no additional configuration is needed. You're all set to run the project with the default settings. Jump directly to the [Start section](##start)
+
+If you want to use the Stormglass API, configure your API key in the file [config/config.yaml](config/config.yaml) as shown below:\
+```yaml
+stormglass:
+  url: https://api.stormglass.io/v2
+  api_key: xxx-yyy-zzz # replace with your API key
+weather_data: 
+  source: file # replace by stormglass to init weather data from the API
+```
+
+
 ## Start
 In the root directory of the project, run the following commands:
 
 ```
-export POSTGRES_HOST=postgres
-export POSTGRES_USER=postgres
-export POSTGRES_PASSWORD=postgres
-export POSTGRES_DB=surf_forecast
-export WEATHER_DATA_SOURCE=file # other possible value is stormglass but you will need a valid stormglass api key (see "Stormglass" section in this README)
-export STORMGLASS_API_KEY=xxx-yyy-zzz
-
 cd docker
 docker compose up --build -d
 ```
@@ -135,9 +142,11 @@ The response contains only one surf spot: The one with the best rating and the b
 ## To do list
 - [x] API endpoint returning the best surf spot and the best time to go there
 - [x] querying stormglass at startup and storing weather data in a database
-- [ ] using the database instead of static json files
+- [x] using the database instead of static json files
 - [x] docker for API server and database
 - [ ] add tests
+- [ ] add CI
+- [ ] add documentation
 
 
 ## Clean
