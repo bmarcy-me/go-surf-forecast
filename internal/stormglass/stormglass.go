@@ -51,10 +51,10 @@ type Meta struct {
 
 // call stormglass api endpoint v2/weather/point
 func GetStormglassWeatherDataFromApi(spot config.SpotConfig, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
-	stormglassApiKey := os.Getenv("STORMGLASS_API_KEY")
 	cfg := config.GetConfig()
+	stormglassApiKey := cfg.Stormglass.ApiKey
 	if stormglassApiKey == "" {
-		return nil, fmt.Errorf("STORMGLASS_API_KEY environment variable is not set")
+		return nil, fmt.Errorf("stormglass API key is not set in config")
 	}
 
 	baseURL, err := url.Parse(cfg.Stormglass.Url)
