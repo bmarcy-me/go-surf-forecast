@@ -20,7 +20,9 @@ go.work.sum
 
 # env file
 .env
-!/docker/.env
+
+# config file
+config/config.yaml
 
 # ide directories
 .vscode/
