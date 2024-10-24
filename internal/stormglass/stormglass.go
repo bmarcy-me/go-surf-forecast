@@ -7,9 +7,9 @@ import (
 	"log"
 	"net/http"
 	"net/url"
-	"os"
 	"time"
 
+	"go-surf-forecast/assets"
 	"go-surf-forecast/config"
 )
 
@@ -108,8 +108,8 @@ func GetStormglassWeatherDataFromApi(spot config.SpotConfig, start time.Time, du
 
 // reads a static JSON file for a spot and returns the data
 func GetStormglassWeatherDataFromFile(spot config.SpotConfig, start time.Time, duration int) (*StormglassWeatherPointApiResponse, error) {
-	filePath := fmt.Sprintf("assets/data/stormglass-data-spot-%d.json", spot.Id)
-	file, err := os.ReadFile(filePath)
+	filePath := fmt.Sprintf("data/stormglass-data-spot-%d.json", spot.Id)
+	file, err := assets.StaticData.ReadFile(filePath)
 	if err != nil {
 		return &StormglassWeatherPointApiResponse{}, err
 	}

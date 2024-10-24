@@ -68,7 +68,7 @@ docker compose up --build -d
 /spots returns the forecast for surf spots
 
 Available query parameters :
-- `start=2024-10-12T08:00:00Z` (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
+- `start=2024-10-12T08:00:00Z` (UTC ISO dateTime between 11/10/2024 and 20/10/2024 if you use static data)
 - `duration=2` (from 1 to 7)
 
 ```sh
@@ -116,7 +116,7 @@ The response contains each surf spot and the rating by hour, with a score from 0
 /spots/best returns the best surf spot and the optimal time to go there in the next X days from a start date
 
 Available query parameters :
-- `start=2024-10-17T08:00:00Z` (iso dateTime between 11/10/2024 and 20/10/2024 if you use static data)
+- `start=2024-10-17T08:00:00Z` (UTC ISO dateTime between 11/10/2024 and 20/10/2024 if you use static data)
 - `duration=4` (from 1 to 7)
 
 ```sh
