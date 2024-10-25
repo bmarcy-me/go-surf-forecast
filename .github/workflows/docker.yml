@@ -18,8 +18,15 @@ jobs:
       
     - name: Test API
       run: |
-        # Check API is up
-        docker run --network container:api dwdraju/alpine-curl-jq curl -fsS http://localhost:8080/api/spots
-        # Check /spots endpoint response
-        docker run --network container:api dwdraju/alpine-curl-jq curl -fsS "http://localhost:8080/api/spots?start=2024-10-12T08:00:00Z&duration=2" | jq .spots | jq 'if .[0].id == 1 then "/spots endpoint OK" else error("/spots endpoint KO") end'
-        # Check /spots/best endpoint response
+        docker run --network container:api dwdraju/alpine-curl-jq sh -c '
+          # Check API is up
+          curl -fsS http://localhost:8080/api/spots && echo "/healthcheck endpoint OK" || exit 1
+
+          # Check /spots endpoint response
+          response=$(curl -fsS "http://localhost:8080/api/spots?start=2024-10-12T08:00:00Z&duration=2")
+          echo "$response" | jq .spots | jq -e 'if .[0].id == 1 then "/spots endpoint OK" else error("/spots endpoint KO") end' || exit 1
+
+          # Check /spots/best endpoint response
+          response=$(curl -fsS "http://localhost:8080/api/spots/best?start=2024-10-17T08:00:00Z&duration=4")
+          echo "$response" | jq -e 'if .id == 2 then "/spots/best endpoint OK" else error("/spots/best endpoint KO") end' || exit 1
+        '
