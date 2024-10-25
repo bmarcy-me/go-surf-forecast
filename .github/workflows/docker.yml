@@ -16,5 +16,10 @@ jobs:
     - name: Build the stack
       run: docker compose --file docker/compose.yaml up --build -d
       
-    - name: Run the stack
-      run: docker run --network container:api curl -v http://localhost:8080/api/spots/
+    - name: Test API
+      run: |
+        # Check API is up
+        docker run --network container:api dwdraju/alpine-curl-jq -s http://localhost:8080/api/spots/
+        # Check /spots endpoint response
+        docker run --network container:api dwdraju/alpine-curl-jq -s http://localhost:8080 | jq 'if .[0].Id == 1 then "/spots endpoint OK" else error("spots endpoint KO) end'
+        # Check /spots/best endpoint response
