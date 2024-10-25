@@ -35,6 +35,7 @@ func main() {
 
 	handlers.WeatherModel = models.WeatherModel{DB: db}
 
+	http.HandleFunc("/api/healthcheck", handlers.Healtcheck)
 	http.HandleFunc("/api/spots", handlers.GetSpots)
 	http.HandleFunc("/api/spots/best", handlers.GetBestSpot)
 

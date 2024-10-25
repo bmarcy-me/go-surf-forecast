@@ -92,6 +92,10 @@ func getBestSpotAtAnytime(spots []SurfSpot) SurfSpot {
 	return bestSpot
 }
 
+func Healtcheck(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(http.StatusOK)
+}
+
 // GetSpots is a handler function that returns score for all spots by hour
 func GetSpots(w http.ResponseWriter, r *http.Request) {
 	start, duration, err := parseQueryParams(r)

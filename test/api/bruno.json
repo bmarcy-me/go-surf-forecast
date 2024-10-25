@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "go-surf-forecast",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
