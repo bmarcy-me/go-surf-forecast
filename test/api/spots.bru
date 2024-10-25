@@ -1,0 +1,33 @@
+meta {
+  name: spots
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8080/api/spots?start=2024-10-12T08:00:00Z&duration=2
+  body: none
+  auth: none
+}
+
+params:query {
+  start: 2024-10-12T08:00:00Z
+  duration: 2
+}
+
+tests {
+  test("should return 200", function() {
+    const data = res.getBody();
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("should find 3 spots", function() {
+    const data = res.getBody();
+    expect(data.spots.length).to.equal(3)
+  });
+  
+  test("spot 1 should be in first position", function() {
+    const data = res.getBody();
+    expect(data.spots[0].id).to.equal(1)
+  });
+}

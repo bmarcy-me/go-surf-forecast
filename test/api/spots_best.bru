@@ -1,0 +1,28 @@
+meta {
+  name: spots_best
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8080/api/spots/best?start=2024-10-17T08:00:00Z&duration=4
+  body: none
+  auth: none
+}
+
+params:query {
+  start: 2024-10-17T08:00:00Z
+  duration: 4
+}
+
+tests {
+  test("should return 200", function() {
+    const data = res.getBody();
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("should return spot 2", function() {
+    const data = res.getBody();
+    expect(data.id).to.equal(2)
+  });
+}
