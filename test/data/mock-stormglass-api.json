@@ -1,0 +1,29 @@
+{
+    "hours": [
+        {
+            "airTemperature": {"sg": 15.0},
+            "currentSpeed": {"sg": 1.2},
+            "seaLevel": {"sg": 0.5},
+            "swellDirection": {"sg": 180},
+            "swellHeight": {"sg": 1.5},
+            "swellPeriod": {"sg": 10},
+            "time": "2023-10-01T00:00:00+00:00",
+            "waterTemperature": {"sg": 16.0},
+            "waveDirection": {"sg": 190},
+            "waveHeight": {"sg": 2.0},
+            "wavePeriod": {"sg": 12},
+            "windDirection": {"sg": 200},
+            "windSpeed": {"sg": 5.0}
+        }
+    ],
+    "meta": {
+        "cost": 1,
+        "dailyQuota": 50,
+        "end": "2023-10-02T00:00:00+00:00",
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "params": ["airTemperature", "currentSpeed", "seaLevel", "swellDirection", "swellHeight", "swellPeriod", "waterTemperature", "waveDirection", "waveHeight", "wavePeriod", "windDirection", "windSpeed"],
+        "requestCount": 1,
+        "start": "2023-10-01T00:00:00+00:00"
+    }
+}
