@@ -62,6 +62,41 @@ cd docker
 docker compose up --build -d
 ```
 
+
+## Workflow
+
+The docker environment includes 3 containers :
+- **PostgreSQL Database** – This container hosts the database where weather data is stored.
+- **Setup Container (`cmd/db/setup_db.go`)** – This container runs the setup_db.go script, which populates the database with weather information from the Stormglass API (or static data files) for each configured spot. Once this setup is complete, the container exits.
+- **API Server (`cmd/server/main.go`)** – After setup_db.go completes, the API server container starts. This server handles incoming requests and queries the database for each endpoint call.
+
+### cmd/db/setup_db.go
+
+
+```mermaid
+flowchart TD
+    n4["setup_db.go"] --> n6(("for each<br>configured spots<br>"))
+    n5["Stormglass API<br>"] --> n6
+    n6 --> n5 & n3["Postgres DB"]
+
+    n4@{ shape: rect}
+    n3@{ shape: cyl}
+```
+
+### cmd/server/main.go
+
+```mermaid
+flowchart LR
+ subgraph s1["API server"]
+        n5["/spots"]
+        n6["/spots/best"]
+  end
+    s1 --> n3["Postgres DB"]
+    n3 --> s1
+
+    n3@{ shape: cyl}
+```
+
 ## API endpoints
 
 ### /spots
@@ -138,15 +173,6 @@ The response contains only one surf spot: The one with the best rating and the b
 }
 ```
 
-
-## To do list
-- [x] API endpoint returning the best surf spot and the best time to go there
-- [x] querying stormglass at startup and storing weather data in a database
-- [x] using the database instead of static json files
-- [x] docker for API server and database
-- [ ] add tests
-- [ ] add CI
-- [ ] add documentation
 
 
 ## Clean
